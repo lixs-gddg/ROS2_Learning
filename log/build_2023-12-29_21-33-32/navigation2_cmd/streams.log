@@ -1,0 +1,27 @@
+[0.762s] Invoking command in '/home/ricardo/rm_ws/src/navigation2_cmd': PYTHONPATH=/home/ricardo/rm_ws/build/navigation2_cmd/prefix_override:/home/ricardo/rm_ws/install/navigation2_cmd/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation2_cmd build --build-base /home/ricardo/rm_ws/build/navigation2_cmd/build install --record /home/ricardo/rm_ws/build/navigation2_cmd/install.log --single-version-externally-managed
+[0.954s] running egg_info
+[0.955s] writing ../../build/navigation2_cmd/navigation2_cmd.egg-info/PKG-INFO
+[0.955s] writing dependency_links to ../../build/navigation2_cmd/navigation2_cmd.egg-info/dependency_links.txt
+[0.955s] writing entry points to ../../build/navigation2_cmd/navigation2_cmd.egg-info/entry_points.txt
+[0.956s] writing requirements to ../../build/navigation2_cmd/navigation2_cmd.egg-info/requires.txt
+[0.956s] writing top-level names to ../../build/navigation2_cmd/navigation2_cmd.egg-info/top_level.txt
+[0.956s] reading manifest file '../../build/navigation2_cmd/navigation2_cmd.egg-info/SOURCES.txt'
+[0.958s] writing manifest file '../../build/navigation2_cmd/navigation2_cmd.egg-info/SOURCES.txt'
+[0.959s] running build
+[0.960s] running build_py
+[0.961s] copying navigation2_cmd/receive_point_queue.py -> /home/ricardo/rm_ws/build/navigation2_cmd/build/lib/navigation2_cmd
+[0.961s] running install
+[0.961s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.962s]   warnings.warn(
+[0.962s] running install_lib
+[0.969s] copying /home/ricardo/rm_ws/build/navigation2_cmd/build/lib/navigation2_cmd/receive_point_queue.py -> /home/ricardo/rm_ws/install/navigation2_cmd/lib/python3.10/site-packages/navigation2_cmd
+[0.969s] byte-compiling /home/ricardo/rm_ws/install/navigation2_cmd/lib/python3.10/site-packages/navigation2_cmd/receive_point_queue.py to receive_point_queue.cpython-310.pyc
+[0.969s] running install_data
+[0.969s] running install_egg_info
+[0.970s] removing '/home/ricardo/rm_ws/install/navigation2_cmd/lib/python3.10/site-packages/navigation2_cmd-0.0.0-py3.10.egg-info' (and everything under it)
+[0.970s] Copying ../../build/navigation2_cmd/navigation2_cmd.egg-info to /home/ricardo/rm_ws/install/navigation2_cmd/lib/python3.10/site-packages/navigation2_cmd-0.0.0-py3.10.egg-info
+[0.970s] running install_scripts
+[0.983s] Installing init_robot_pose script to /home/ricardo/rm_ws/install/navigation2_cmd/lib/navigation2_cmd
+[0.983s] Installing receive_point_queue script to /home/ricardo/rm_ws/install/navigation2_cmd/lib/navigation2_cmd
+[0.984s] writing list of installed files to '/home/ricardo/rm_ws/build/navigation2_cmd/install.log'
+[1.012s] Invoked command in '/home/ricardo/rm_ws/src/navigation2_cmd' returned '0': PYTHONPATH=/home/ricardo/rm_ws/build/navigation2_cmd/prefix_override:/home/ricardo/rm_ws/install/navigation2_cmd/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation2_cmd build --build-base /home/ricardo/rm_ws/build/navigation2_cmd/build install --record /home/ricardo/rm_ws/build/navigation2_cmd/install.log --single-version-externally-managed

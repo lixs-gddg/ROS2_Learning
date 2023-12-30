@@ -1,0 +1,6 @@
+[console_scripts]
+topic_text_publisher = topic_text_video.topic_text_publisher:main
+topic_text_subscriber = topic_text_video.topic_text_subscriber:main
+topic_video_publisher = topic_text_video.topic_video_publisher:main
+topic_video_subscriber = topic_text_video.topic_video_subscriber:main
+

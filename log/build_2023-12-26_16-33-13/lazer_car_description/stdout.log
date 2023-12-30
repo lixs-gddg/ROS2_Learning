@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/lazer_car_description/lazer_car_description.egg-info
+writing ../../build/lazer_car_description/lazer_car_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/lazer_car_description/lazer_car_description.egg-info/dependency_links.txt
+writing entry points to ../../build/lazer_car_description/lazer_car_description.egg-info/entry_points.txt
+writing requirements to ../../build/lazer_car_description/lazer_car_description.egg-info/requires.txt
+writing top-level names to ../../build/lazer_car_description/lazer_car_description.egg-info/top_level.txt
+writing manifest file '../../build/lazer_car_description/lazer_car_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/lazer_car_description/lazer_car_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/lazer_car_description/lazer_car_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ricardo/rm_ws/build/lazer_car_description/build
+creating /home/ricardo/rm_ws/build/lazer_car_description/build/lib
+creating /home/ricardo/rm_ws/build/lazer_car_description/build/lib/lazer_car_description
+copying lazer_car_description/__init__.py -> /home/ricardo/rm_ws/build/lazer_car_description/build/lib/lazer_car_description
+running install
+running install_lib
+creating /home/ricardo/rm_ws/install/lazer_car_description/lib/python3.10/site-packages/lazer_car_description
+copying /home/ricardo/rm_ws/build/lazer_car_description/build/lib/lazer_car_description/__init__.py -> /home/ricardo/rm_ws/install/lazer_car_description/lib/python3.10/site-packages/lazer_car_description
+byte-compiling /home/ricardo/rm_ws/install/lazer_car_description/lib/python3.10/site-packages/lazer_car_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ricardo/rm_ws/install/lazer_car_description/share/ament_index
+creating /home/ricardo/rm_ws/install/lazer_car_description/share/ament_index/resource_index
+creating /home/ricardo/rm_ws/install/lazer_car_description/share/ament_index/resource_index/packages
+copying resource/lazer_car_description -> /home/ricardo/rm_ws/install/lazer_car_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/ricardo/rm_ws/install/lazer_car_description/share/lazer_car_description
+creating /home/ricardo/rm_ws/install/lazer_car_description/share/lazer_car_description/launch
+copying launch/touch display_rviz2.launch.py -> /home/ricardo/rm_ws/install/lazer_car_description/share/lazer_car_description/launch
+creating /home/ricardo/rm_ws/install/lazer_car_description/share/lazer_car_description/urdf
+copying urdf/lazer_car_base.urdf -> /home/ricardo/rm_ws/install/lazer_car_description/share/lazer_car_description/urdf
+running install_egg_info
+Copying ../../build/lazer_car_description/lazer_car_description.egg-info to /home/ricardo/rm_ws/install/lazer_car_description/lib/python3.10/site-packages/lazer_car_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ricardo/rm_ws/build/lazer_car_description/install.log'

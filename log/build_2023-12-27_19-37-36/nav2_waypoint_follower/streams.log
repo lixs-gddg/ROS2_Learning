@@ -1,0 +1,133 @@
+[0.088s] Invoking command in '/home/ricardo/rm_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_waypoint_follower -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/nav2_waypoint_follower
+[6.623s] -- The C compiler identification is GNU 11.4.0
+[6.624s] -- The CXX compiler identification is GNU 11.4.0
+[6.624s] -- Detecting C compiler ABI info
+[6.624s] -- Detecting C compiler ABI info - done
+[6.624s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.624s] -- Detecting C compile features
+[6.624s] -- Detecting C compile features - done
+[6.625s] -- Detecting CXX compiler ABI info
+[6.625s] -- Detecting CXX compiler ABI info - done
+[6.627s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.628s] -- Detecting CXX compile features
+[6.628s] -- Detecting CXX compile features - done
+[6.628s] -- Found OpenCV version 4.5.4
+[6.628s] -- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+[6.628s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.628s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.628s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.628s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.628s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.628s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.628s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.628s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.628s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.628s] -- Looking for pthread.h
+[6.628s] -- Looking for pthread.h - found
+[6.628s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.629s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.629s] -- Found Threads: TRUE  
+[6.629s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[6.629s] -- Found nav2_common: 1.1.12 (/home/ricardo/rm_ws/install/nav2_common/share/nav2_common/cmake)
+[6.629s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[6.629s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.629s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[6.629s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.629s] -- Found nav2_msgs: 1.1.12 (/home/ricardo/rm_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[6.629s] -- Found nav2_util: 1.1.12 (/home/ricardo/rm_ws/install/nav2_util/share/nav2_util/cmake)
+[6.629s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.629s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.629s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.629s] -- Found nav2_core: 1.1.12 (/home/ricardo/rm_ws/install/nav2_core/share/nav2_core/cmake)
+[6.629s] -- Setting build type to Release as none was specified.
+[15.878s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.882s] -- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[16.043s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[20.399s] -- Added test 'copyright' to check source files copyright and LICENSE
+[20.406s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[20.408s] -- Configured cppcheck include dirs: /home/ricardo/rm_ws/src/navigation2/nav2_waypoint_follower/include
+[20.408s] -- Configured cppcheck exclude dirs and/or files: 
+[20.409s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[20.409s] -- Configured cpplint exclude dirs and/or files: 
+[20.411s] -- Added test 'lint_cmake' to check CMake code style
+[20.413s] -- Added test 'uncrustify' to check C / C++ code style
+[20.413s] -- Configured uncrustify additional arguments: 
+[20.414s] -- Added test 'xmllint' to check XML markup files
+[20.417s] -- Configuring done
+[20.762s] -- Generating done
+[20.766s] -- Build files have been written to: /home/ricardo/rm_ws/build/nav2_waypoint_follower
+[20.797s] Invoked command in '/home/ricardo/rm_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_waypoint_follower -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/nav2_waypoint_follower
+[20.801s] Invoking command in '/home/ricardo/rm_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_waypoint_follower -- -j8 -l8
+[44.337s] [  5%] [32mBuilding CXX object CMakeFiles/waypoint_follower_core.dir/src/waypoint_follower.cpp.o[0m
+[44.337s] [ 11%] [32m[1mLinking CXX shared library libwaypoint_follower_core.so[0m
+[44.337s] [ 11%] Built target waypoint_follower_core
+[44.337s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[44.338s] [ 22%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[44.338s] [ 22%] Built target gtest_main
+[44.338s] [ 27%] [32mBuilding CXX object CMakeFiles/waypoint_follower.dir/src/main.cpp.o[0m
+[47.685s] [ 33%] [32m[1mLinking CXX executable waypoint_follower[0m
+[48.253s] [ 33%] Built target waypoint_follower
+[48.289s] [ 38%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[56.990s] [ 44%] [32m[1mLinking CXX static library libgtest.a[0m
+[57.048s] [ 44%] Built target gtest
+[57.083s] [ 50%] [32mBuilding CXX object CMakeFiles/input_at_waypoint.dir/plugins/input_at_waypoint.cpp.o[0m
+[69.559s] [ 55%] [32m[1mLinking CXX shared library libinput_at_waypoint.so[0m
+[69.916s] [ 55%] Built target input_at_waypoint
+[69.952s] [ 61%] [32mBuilding CXX object test/CMakeFiles/test_dynamic_parameters.dir/test_dynamic_parameters.cpp.o[0m
+[76.366s] [ 66%] [32m[1mLinking CXX executable test_dynamic_parameters[0m
+[77.058s] [ 66%] Built target test_dynamic_parameters
+[77.088s] [ 72%] [32mBuilding CXX object CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o[0m
+[95.116s] [ 77%] [32m[1mLinking CXX shared library libphoto_at_waypoint.so[0m
+[95.665s] [ 77%] Built target photo_at_waypoint
+[95.723s] [ 83%] [32mBuilding CXX object CMakeFiles/wait_at_waypoint.dir/plugins/wait_at_waypoint.cpp.o[0m
+[101.709s] [ 88%] [32m[1mLinking CXX shared library libwait_at_waypoint.so[0m
+[102.099s] [ 88%] Built target wait_at_waypoint
+[102.138s] [ 94%] [32mBuilding CXX object test/CMakeFiles/test_task_executors.dir/test_task_executors.cpp.o[0m
+[114.272s] [100%] [32m[1mLinking CXX executable test_task_executors[0m
+[115.543s] [100%] Built target test_task_executors
+[115.562s] Invoked command in '/home/ricardo/rm_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_waypoint_follower -- -j8 -l8
+[115.660s] Invoking command in '/home/ricardo/rm_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_waypoint_follower
+[115.670s] -- Install configuration: "Release"
+[115.670s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/lib/libwaypoint_follower_core.so
+[115.671s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_waypoint_follower/lib/libwaypoint_follower_core.so" to ""
+[115.672s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/lib/libwait_at_waypoint.so
+[115.672s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_waypoint_follower/lib/libwait_at_waypoint.so" to ""
+[115.672s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/lib/libphoto_at_waypoint.so
+[115.673s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_waypoint_follower/lib/libphoto_at_waypoint.so" to ""
+[115.674s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/lib/libinput_at_waypoint.so
+[115.675s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_waypoint_follower/lib/libinput_at_waypoint.so" to ""
+[115.675s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/lib/nav2_waypoint_follower/waypoint_follower
+[115.677s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_waypoint_follower/lib/nav2_waypoint_follower/waypoint_follower" to ""
+[115.678s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/include/
+[115.678s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower
+[115.678s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/waypoint_follower.hpp
+[115.678s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins
+[115.678s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/photo_at_waypoint.hpp
+[115.678s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/input_at_waypoint.hpp
+[115.679s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/wait_at_waypoint.hpp
+[115.679s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/library_path.sh
+[115.679s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/library_path.dsv
+[115.679s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/plugins.xml
+[115.679s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/package_run_dependencies/nav2_waypoint_follower
+[115.679s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/parent_prefix_path/nav2_waypoint_follower
+[115.679s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.sh
+[115.679s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.dsv
+[115.679s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.sh
+[115.679s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.dsv
+[115.679s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.bash
+[115.681s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.sh
+[115.681s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.zsh
+[115.681s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.dsv
+[115.681s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.dsv
+[115.682s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/packages/nav2_waypoint_follower
+[115.682s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/nav2_waypoint_follower__pluginlib__plugin/nav2_waypoint_follower
+[115.682s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/rclcpp_components/nav2_waypoint_follower
+[115.682s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+[115.683s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_libraries-extras.cmake
+[115.683s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_dependencies-extras.cmake
+[115.683s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig.cmake
+[115.683s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig-version.cmake
+[115.683s] -- Installing: /home/ricardo/rm_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.xml
+[115.700s] Invoked command in '/home/ricardo/rm_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_waypoint_follower

@@ -1,0 +1,147 @@
+[0.180s] Invoking command in '/home/ricardo/rm_ws/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_behavior_tree/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_behaviors -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/nav2_behaviors
+[35.945s] -- The C compiler identification is GNU 11.4.0
+[35.945s] -- The CXX compiler identification is GNU 11.4.0
+[35.946s] -- Detecting C compiler ABI info
+[35.947s] -- Detecting C compiler ABI info - done
+[35.948s] -- Check for working C compiler: /usr/bin/cc - skipped
+[35.948s] -- Detecting C compile features
+[35.948s] -- Detecting C compile features - done
+[35.948s] -- Detecting CXX compiler ABI info
+[35.949s] -- Detecting CXX compiler ABI info - done
+[35.949s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[35.949s] -- Detecting CXX compile features
+[35.949s] -- Detecting CXX compile features - done
+[35.949s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[35.949s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[35.949s] -- Found nav2_common: 1.1.12 (/home/ricardo/rm_ws/install/nav2_common/share/nav2_common/cmake)
+[35.949s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[35.949s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[35.949s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[35.950s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[35.971s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[35.971s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[35.972s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[35.972s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[35.972s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[35.973s] -- Found FastRTPS: /opt/ros/humble/include  
+[35.973s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[35.973s] -- Looking for pthread.h
+[35.973s] -- Looking for pthread.h - found
+[35.973s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[35.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[35.974s] -- Found Threads: TRUE  
+[35.974s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[35.974s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[35.974s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[35.974s] -- Found nav2_behavior_tree: 1.1.12 (/home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[35.974s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[35.974s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[35.974s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[35.974s] -- Found nav2_costmap_2d: 1.1.12 (/home/ricardo/rm_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[35.974s] -- Found nav2_core: 1.1.12 (/home/ricardo/rm_ws/install/nav2_core/share/nav2_core/cmake)
+[35.975s] -- Setting build type to Release as none was specified.
+[84.840s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[84.976s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[93.556s] -- Added test 'copyright' to check source files copyright and LICENSE
+[93.563s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[93.565s] -- Configured cppcheck include dirs: /home/ricardo/rm_ws/src/navigation2/nav2_behaviors/include
+[93.565s] -- Configured cppcheck exclude dirs and/or files: 
+[93.567s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[93.567s] -- Configured cpplint exclude dirs and/or files: 
+[93.568s] -- Added test 'lint_cmake' to check CMake code style
+[93.570s] -- Added test 'uncrustify' to check C / C++ code style
+[93.570s] -- Configured uncrustify additional arguments: 
+[93.571s] -- Added test 'xmllint' to check XML markup files
+[93.577s] -- Configuring done
+[93.940s] -- Generating done
+[93.943s] -- Build files have been written to: /home/ricardo/rm_ws/build/nav2_behaviors
+[94.079s] Invoked command in '/home/ricardo/rm_ws/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_behavior_tree/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_behaviors -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/nav2_behaviors
+[94.080s] Invoking command in '/home/ricardo/rm_ws/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_behavior_tree/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_behaviors -- -j8 -l8
+[100.642s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_spin_behavior.dir/plugins/spin.cpp.o[0m
+[107.139s] [ 10%] [32m[1mLinking CXX shared library libnav2_spin_behavior.so[0m
+[107.832s] [ 10%] Built target nav2_spin_behavior
+[107.865s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[117.964s] [ 20%] [32m[1mLinking CXX static library libgtest.a[0m
+[118.030s] [ 20%] Built target gtest
+[118.065s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[119.352s] [ 30%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[119.408s] [ 30%] Built target gtest_main
+[119.449s] [ 35%] [32mBuilding CXX object CMakeFiles/behavior_server_core.dir/src/behavior_server.cpp.o[0m
+[134.369s] [ 40%] [32m[1mLinking CXX shared library libbehavior_server_core.so[0m
+[135.006s] [ 40%] Built target behavior_server_core
+[135.044s] [ 45%] [32mBuilding CXX object test/CMakeFiles/test_behaviors.dir/test_behaviors.cpp.o[0m
+[151.634s] [ 50%] [32m[1mLinking CXX executable test_behaviors[0m
+[152.268s] [ 50%] Built target test_behaviors
+[152.306s] [ 55%] [32mBuilding CXX object CMakeFiles/behavior_server.dir/src/main.cpp.o[0m
+[158.394s] [ 60%] [32m[1mLinking CXX executable behavior_server[0m
+[158.793s] [ 60%] Built target behavior_server
+[158.828s] [ 65%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_behavior.dir/plugins/assisted_teleop.cpp.o[0m
+[179.839s] [ 70%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_behavior.so[0m
+[180.545s] [ 70%] Built target nav2_assisted_teleop_behavior
+[180.604s] [ 75%] [32mBuilding CXX object CMakeFiles/nav2_back_up_behavior.dir/plugins/back_up.cpp.o[0m
+[180.610s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_behavior.dir/plugins/drive_on_heading.cpp.o[0m
+[196.377s] [ 85%] [32m[1mLinking CXX shared library libnav2_back_up_behavior.so[0m
+[196.843s] [ 90%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_behavior.so[0m
+[196.875s] [ 90%] Built target nav2_back_up_behavior
+[197.395s] [ 90%] Built target nav2_drive_on_heading_behavior
+[197.432s] [ 95%] [32mBuilding CXX object CMakeFiles/nav2_wait_behavior.dir/plugins/wait.cpp.o[0m
+[207.713s] [100%] [32m[1mLinking CXX shared library libnav2_wait_behavior.so[0m
+[208.096s] [100%] Built target nav2_wait_behavior
+[208.112s] Invoked command in '/home/ricardo/rm_ws/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_behavior_tree/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_behaviors -- -j8 -l8
+[208.224s] Invoking command in '/home/ricardo/rm_ws/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_behavior_tree/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_behaviors
+[208.232s] -- Install configuration: "Release"
+[208.232s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[208.233s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/lib/libbehavior_server_core.so
+[208.234s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_behaviors/lib/libbehavior_server_core.so" to ""
+[208.234s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/lib/libnav2_spin_behavior.so
+[208.235s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_behaviors/lib/libnav2_spin_behavior.so" to ""
+[208.235s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/lib/libnav2_wait_behavior.so
+[208.236s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_behaviors/lib/libnav2_wait_behavior.so" to ""
+[208.236s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so
+[208.238s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so" to ""
+[208.238s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so
+[208.239s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so" to ""
+[208.239s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/lib/libnav2_back_up_behavior.so
+[208.240s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_behaviors/lib/libnav2_back_up_behavior.so" to ""
+[208.240s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/lib/nav2_behaviors/behavior_server
+[208.241s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_behaviors/lib/nav2_behaviors/behavior_server" to ""
+[208.241s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/include/
+[208.242s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/include//nav2_behaviors
+[208.242s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/include//nav2_behaviors/behavior_server.hpp
+[208.242s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/include//nav2_behaviors/plugins
+[208.242s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/back_up.hpp
+[208.243s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/assisted_teleop.hpp
+[208.243s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/spin.hpp
+[208.243s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/drive_on_heading.hpp
+[208.243s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/wait.hpp
+[208.244s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/include//nav2_behaviors/timed_behavior.hpp
+[208.244s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[208.244s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/plugins/
+[208.244s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//spin.cpp
+[208.244s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//drive_on_heading.cpp
+[208.245s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//assisted_teleop.cpp
+[208.245s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//wait.cpp
+[208.245s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//back_up.cpp
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.sh
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.dsv
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/ament_index/resource_index/package_run_dependencies/nav2_behaviors
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/ament_index/resource_index/parent_prefix_path/nav2_behaviors
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.sh
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.dsv
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/environment/path.sh
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/environment/path.dsv
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.bash
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.sh
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.zsh
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.dsv
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/package.dsv
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/ament_index/resource_index/packages/nav2_behaviors
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_behaviors
+[208.246s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/ament_index/resource_index/rclcpp_components/nav2_behaviors
+[208.247s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_include_directories-extras.cmake
+[208.247s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_libraries-extras.cmake
+[208.247s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_dependencies-extras.cmake
+[208.247s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig.cmake
+[208.247s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig-version.cmake
+[208.247s] -- Installing: /home/ricardo/rm_ws/install/nav2_behaviors/share/nav2_behaviors/package.xml
+[208.251s] Invoked command in '/home/ricardo/rm_ws/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_behavior_tree/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_behaviors

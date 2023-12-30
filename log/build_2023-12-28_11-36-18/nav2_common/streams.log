@@ -1,0 +1,48 @@
+[0.113s] Invoking command in '/home/ricardo/rm_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/nav2_simple_commander:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_common -- -j8 -l8
+[0.201s] Built target ament_cmake_python_copy_nav2_common
+[0.438s] running egg_info
+[0.439s] writing nav2_common.egg-info/PKG-INFO
+[0.440s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[0.441s] writing top-level names to nav2_common.egg-info/top_level.txt
+[0.443s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.444s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.483s] Built target ament_cmake_python_build_nav2_common_egg
+[0.499s] Invoked command in '/home/ricardo/rm_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/nav2_simple_commander:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_common -- -j8 -l8
+[0.557s] Invoking command in '/home/ricardo/rm_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/nav2_simple_commander:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_common
+[0.569s] -- Install configuration: ""
+[0.570s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[0.570s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[0.570s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.12-py3.10.egg-info
+[0.570s] -- Installing: /home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.12-py3.10.egg-info/dependency_links.txt
+[0.571s] -- Installing: /home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.12-py3.10.egg-info/PKG-INFO
+[0.571s] -- Installing: /home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.12-py3.10.egg-info/SOURCES.txt
+[0.571s] -- Installing: /home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.12-py3.10.egg-info/top_level.txt
+[0.572s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common
+[0.572s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[0.572s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch
+[0.572s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[0.572s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[0.572s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py
+[0.572s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[0.572s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[0.602s] Listing '/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[0.602s] Listing '/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[0.607s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[0.607s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[0.607s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[0.608s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[0.608s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[0.608s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[0.608s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[0.608s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[0.608s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[0.608s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[0.608s] -- Installing: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/package.dsv
+[0.609s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[0.609s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[0.609s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[0.609s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[0.609s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/package.xml
+[0.609s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/cmake
+[0.609s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[0.611s] Invoked command in '/home/ricardo/rm_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/nav2_simple_commander:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_common

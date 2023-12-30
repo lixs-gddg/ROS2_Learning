@@ -1,0 +1,24 @@
+[1.030s] Invoking command in '/home/ricardo/rm_ws/src/laser_car_description': PYTHONPATH=/home/ricardo/rm_ws/build/laser_car_description/prefix_override:/home/ricardo/rm_ws/install/laser_car_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/laser_car_description build --build-base /home/ricardo/rm_ws/build/laser_car_description/build install --record /home/ricardo/rm_ws/build/laser_car_description/install.log --single-version-externally-managed
+[1.214s] running egg_info
+[1.215s] writing ../../build/laser_car_description/laser_car_description.egg-info/PKG-INFO
+[1.216s] writing dependency_links to ../../build/laser_car_description/laser_car_description.egg-info/dependency_links.txt
+[1.216s] writing entry points to ../../build/laser_car_description/laser_car_description.egg-info/entry_points.txt
+[1.217s] writing requirements to ../../build/laser_car_description/laser_car_description.egg-info/requires.txt
+[1.218s] writing top-level names to ../../build/laser_car_description/laser_car_description.egg-info/top_level.txt
+[1.220s] reading manifest file '../../build/laser_car_description/laser_car_description.egg-info/SOURCES.txt'
+[1.221s] writing manifest file '../../build/laser_car_description/laser_car_description.egg-info/SOURCES.txt'
+[1.221s] running build
+[1.221s] running build_py
+[1.221s] running install
+[1.221s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.221s]   warnings.warn(
+[1.222s] running install_lib
+[1.223s] running install_data
+[1.224s] copying launch/gazebo.launch.py -> /home/ricardo/rm_ws/install/laser_car_description/share/laser_car_description/launch
+[1.224s] running install_egg_info
+[1.225s] removing '/home/ricardo/rm_ws/install/laser_car_description/lib/python3.10/site-packages/laser_car_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.226s] Copying ../../build/laser_car_description/laser_car_description.egg-info to /home/ricardo/rm_ws/install/laser_car_description/lib/python3.10/site-packages/laser_car_description-0.0.0-py3.10.egg-info
+[1.227s] running install_scripts
+[1.247s] Installing rotate_wheel script to /home/ricardo/rm_ws/install/laser_car_description/lib/laser_car_description
+[1.248s] writing list of installed files to '/home/ricardo/rm_ws/build/laser_car_description/install.log'
+[1.335s] Invoked command in '/home/ricardo/rm_ws/src/laser_car_description' returned '0': PYTHONPATH=/home/ricardo/rm_ws/build/laser_car_description/prefix_override:/home/ricardo/rm_ws/install/laser_car_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/laser_car_description build --build-base /home/ricardo/rm_ws/build/laser_car_description/build install --record /home/ricardo/rm_ws/build/laser_car_description/install.log --single-version-externally-managed

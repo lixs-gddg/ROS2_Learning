@@ -1,0 +1,3 @@
+[console_scripts]
+rotate_wheel = laser_car_description.rotate_wheel:main
+

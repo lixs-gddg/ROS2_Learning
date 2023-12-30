@@ -1,0 +1,9 @@
+/home/ricardo/rm_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/CriticScore.idl
+/home/ricardo/rm_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/LocalPlanEvaluation.idl
+/home/ricardo/rm_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/Trajectory2D.idl
+/home/ricardo/rm_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/TrajectoryScore.idl
+/home/ricardo/rm_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/DebugLocalPlan.idl
+/home/ricardo/rm_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTrajectory.idl
+/home/ricardo/rm_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTwists.idl
+/home/ricardo/rm_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GetCriticScore.idl
+/home/ricardo/rm_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/ScoreTrajectory.idl

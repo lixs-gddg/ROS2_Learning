@@ -1,0 +1,43 @@
+[0.666s] Invoking command in '/home/ricardo/rm_ws/src/topic_text_video': PYTHONPATH=/home/ricardo/rm_ws/build/topic_text_video/prefix_override:/home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/topic_text_video build --build-base /home/ricardo/rm_ws/build/topic_text_video/build install --record /home/ricardo/rm_ws/build/topic_text_video/install.log --single-version-externally-managed
+[0.845s] running egg_info
+[0.845s] creating ../../build/topic_text_video/topic_text_video.egg-info
+[0.846s] writing ../../build/topic_text_video/topic_text_video.egg-info/PKG-INFO
+[0.846s] writing dependency_links to ../../build/topic_text_video/topic_text_video.egg-info/dependency_links.txt
+[0.846s] writing entry points to ../../build/topic_text_video/topic_text_video.egg-info/entry_points.txt
+[0.846s] writing requirements to ../../build/topic_text_video/topic_text_video.egg-info/requires.txt
+[0.846s] writing top-level names to ../../build/topic_text_video/topic_text_video.egg-info/top_level.txt
+[0.847s] writing manifest file '../../build/topic_text_video/topic_text_video.egg-info/SOURCES.txt'
+[0.850s] reading manifest file '../../build/topic_text_video/topic_text_video.egg-info/SOURCES.txt'
+[0.850s] writing manifest file '../../build/topic_text_video/topic_text_video.egg-info/SOURCES.txt'
+[0.850s] running build
+[0.850s] running build_py
+[0.850s] creating /home/ricardo/rm_ws/build/topic_text_video/build
+[0.850s] creating /home/ricardo/rm_ws/build/topic_text_video/build/lib
+[0.850s] creating /home/ricardo/rm_ws/build/topic_text_video/build/lib/topic_text_video
+[0.850s] copying topic_text_video/topic_text_publisher.py -> /home/ricardo/rm_ws/build/topic_text_video/build/lib/topic_text_video
+[0.850s] copying topic_text_video/__init__.py -> /home/ricardo/rm_ws/build/topic_text_video/build/lib/topic_text_video
+[0.850s] copying topic_text_video/topic_text_subscriber.py -> /home/ricardo/rm_ws/build/topic_text_video/build/lib/topic_text_video
+[0.851s] running install
+[0.851s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.852s]   warnings.warn(
+[0.852s] running install_lib
+[0.853s] creating /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video
+[0.853s] copying /home/ricardo/rm_ws/build/topic_text_video/build/lib/topic_text_video/topic_text_publisher.py -> /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video
+[0.853s] copying /home/ricardo/rm_ws/build/topic_text_video/build/lib/topic_text_video/__init__.py -> /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video
+[0.853s] copying /home/ricardo/rm_ws/build/topic_text_video/build/lib/topic_text_video/topic_text_subscriber.py -> /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video
+[0.854s] byte-compiling /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video/topic_text_publisher.py to topic_text_publisher.cpython-310.pyc
+[0.854s] byte-compiling /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video/__init__.py to __init__.cpython-310.pyc
+[0.854s] byte-compiling /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video/topic_text_subscriber.py to topic_text_subscriber.cpython-310.pyc
+[0.855s] running install_data
+[0.855s] creating /home/ricardo/rm_ws/install/topic_text_video/share/ament_index
+[0.856s] creating /home/ricardo/rm_ws/install/topic_text_video/share/ament_index/resource_index
+[0.856s] creating /home/ricardo/rm_ws/install/topic_text_video/share/ament_index/resource_index/packages
+[0.856s] copying resource/topic_text_video -> /home/ricardo/rm_ws/install/topic_text_video/share/ament_index/resource_index/packages
+[0.856s] copying package.xml -> /home/ricardo/rm_ws/install/topic_text_video/share/topic_text_video
+[0.856s] running install_egg_info
+[0.857s] Copying ../../build/topic_text_video/topic_text_video.egg-info to /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video-0.0.0-py3.10.egg-info
+[0.858s] running install_scripts
+[0.875s] Installing topic_text_publisher script to /home/ricardo/rm_ws/install/topic_text_video/lib/topic_text_video
+[0.875s] Installing topic_text_subscriber script to /home/ricardo/rm_ws/install/topic_text_video/lib/topic_text_video
+[0.876s] writing list of installed files to '/home/ricardo/rm_ws/build/topic_text_video/install.log'
+[0.906s] Invoked command in '/home/ricardo/rm_ws/src/topic_text_video' returned '0': PYTHONPATH=/home/ricardo/rm_ws/build/topic_text_video/prefix_override:/home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/topic_text_video build --build-base /home/ricardo/rm_ws/build/topic_text_video/build install --record /home/ricardo/rm_ws/build/topic_text_video/install.log --single-version-externally-managed

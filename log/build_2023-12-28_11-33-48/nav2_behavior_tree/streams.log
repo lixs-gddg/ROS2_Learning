@@ -1,0 +1,340 @@
+[0.422s] Invoking command in '/home/ricardo/rm_ws/build/nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/navigation2:/home/ricardo/rm_ws/install/nav2_smoother:/home/ricardo/rm_ws/install/nav2_dwb_controller:/home/ricardo/rm_ws/install/nav2_controller:/home/ricardo/rm_ws/install/dwb_plugins:/home/ricardo/rm_ws/install/dwb_critics:/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_waypoint_follower:/home/ricardo/rm_ws/install/nav2_theta_star_planner:/home/ricardo/rm_ws/install/nav2_smac_planner:/home/ricardo/rm_ws/install/nav2_rotation_shim_controller:/home/ricardo/rm_ws/install/nav2_regulated_pure_pursuit_controller:/home/ricardo/rm_ws/install/nav2_planner:/home/ricardo/rm_ws/install/nav2_navfn_planner:/home/ricardo/rm_ws/install/nav2_mppi_controller:/home/ricardo/rm_ws/install/nav2_constrained_smoother:/home/ricardo/rm_ws/install/nav2_bt_navigator:/home/ricardo/rm_ws/install/nav2_behaviors:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_collision_monitor:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_velocity_smoother:/home/ricardo/rm_ws/install/nav2_rviz_plugins:/home/ricardo/rm_ws/install/nav2_map_server:/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_amcl:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/nav2_simple_commander:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/nav2_smoother/lib:/home/ricardo/rm_ws/install/nav2_controller/lib:/home/ricardo/rm_ws/install/dwb_plugins/lib:/home/ricardo/rm_ws/install/dwb_critics/lib:/home/ricardo/rm_ws/install/dwb_core/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:/home/ricardo/rm_ws/install/nav2_waypoint_follower/lib:/home/ricardo/rm_ws/install/nav2_theta_star_planner/lib:/home/ricardo/rm_ws/install/nav2_smac_planner/lib:/home/ricardo/rm_ws/install/nav2_rotation_shim_controller/lib:/home/ricardo/rm_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/ricardo/rm_ws/install/nav2_planner/lib:/home/ricardo/rm_ws/install/nav2_navfn_planner/lib:/home/ricardo/rm_ws/install/nav2_mppi_controller/lib:/home/ricardo/rm_ws/install/nav2_constrained_smoother/lib:/home/ricardo/rm_ws/install/nav2_bt_navigator/lib:/home/ricardo/rm_ws/install/nav2_behaviors/lib:/home/ricardo/rm_ws/install/nav2_collision_monitor/lib:/home/ricardo/rm_ws/install/costmap_queue/lib:/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_velocity_smoother/lib:/home/ricardo/rm_ws/install/nav2_rviz_plugins/lib:/home/ricardo/rm_ws/install/nav2_map_server/lib:/home/ricardo/rm_ws/install/nav2_lifecycle_manager/lib:/home/ricardo/rm_ws/install/nav2_behavior_tree/lib:/home/ricardo/rm_ws/install/nav2_amcl/lib:/home/ricardo/rm_ws/install/cartographer_ros/lib:/home/ricardo/rm_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_behavior_tree -- -j8 -l8
+[0.632s] [35m[1mConsolidate compiler generated dependencies of target nav2_behavior_tree[0m
+[0.632s] [35m[1mConsolidate compiler generated dependencies of target nav2_wait_cancel_bt_node[0m
+[0.639s] [35m[1mConsolidate compiler generated dependencies of target nav2_spin_cancel_bt_node[0m
+[0.639s] [35m[1mConsolidate compiler generated dependencies of target nav2_compute_path_through_poses_action_bt_node[0m
+[0.658s] [35m[1mConsolidate compiler generated dependencies of target nav2_controller_cancel_bt_node[0m
+[0.669s] [35m[1mConsolidate compiler generated dependencies of target nav2_back_up_cancel_bt_node[0m
+[0.669s] [35m[1mConsolidate compiler generated dependencies of target nav2_compute_path_to_pose_action_bt_node[0m
+[0.762s] [35m[1mConsolidate compiler generated dependencies of target nav2_assisted_teleop_cancel_bt_node[0m
+[0.762s] [  1%] Built target nav2_compute_path_through_poses_action_bt_node
+[0.802s] [  2%] Built target nav2_behavior_tree
+[0.814s] [  3%] Built target nav2_controller_cancel_bt_node
+[0.822s] [  4%] Built target nav2_spin_cancel_bt_node
+[0.830s] [  5%] Built target nav2_back_up_cancel_bt_node
+[0.837s] [  6%] Built target nav2_wait_cancel_bt_node
+[0.844s] [  7%] Built target nav2_compute_path_to_pose_action_bt_node
+[0.852s] [  8%] Built target nav2_assisted_teleop_cancel_bt_node
+[0.974s] [35m[1mConsolidate compiler generated dependencies of target nav2_drive_on_heading_cancel_bt_node[0m
+[0.974s] [35m[1mConsolidate compiler generated dependencies of target nav2_smooth_path_action_bt_node[0m
+[1.011s] [35m[1mConsolidate compiler generated dependencies of target nav2_follow_path_action_bt_node[0m
+[1.024s] [35m[1mConsolidate compiler generated dependencies of target nav2_spin_action_bt_node[0m
+[1.041s] [35m[1mConsolidate compiler generated dependencies of target nav2_wait_action_bt_node[0m
+[1.045s] [35m[1mConsolidate compiler generated dependencies of target nav2_drive_on_heading_bt_node[0m
+[1.048s] [35m[1mConsolidate compiler generated dependencies of target nav2_back_up_action_bt_node[0m
+[1.070s] [35m[1mConsolidate compiler generated dependencies of target nav2_assisted_teleop_action_bt_node[0m
+[1.155s] [  9%] Built target nav2_drive_on_heading_cancel_bt_node
+[1.157s] [ 10%] Built target nav2_smooth_path_action_bt_node
+[1.161s] [ 11%] Built target nav2_follow_path_action_bt_node
+[1.196s] [ 12%] Built target nav2_assisted_teleop_action_bt_node
+[1.197s] [ 13%] Built target nav2_spin_action_bt_node
+[1.197s] [ 14%] Built target nav2_wait_action_bt_node
+[1.202s] [ 15%] Built target nav2_drive_on_heading_bt_node
+[1.236s] [ 16%] Built target nav2_back_up_action_bt_node
+[1.237s] [35m[1mConsolidate compiler generated dependencies of target nav2_clear_costmap_service_bt_node[0m
+[1.238s] [35m[1mConsolidate compiler generated dependencies of target nav2_is_stuck_condition_bt_node[0m
+[1.250s] [35m[1mConsolidate compiler generated dependencies of target nav2_globally_updated_goal_condition_bt_node[0m
+[1.257s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_reached_condition_bt_node[0m
+[1.282s] [35m[1mConsolidate compiler generated dependencies of target nav2_transform_available_condition_bt_node[0m
+[1.282s] [35m[1mConsolidate compiler generated dependencies of target nav2_is_path_valid_condition_bt_node[0m
+[1.285s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_updated_condition_bt_node[0m
+[1.288s] [ 17%] Built target nav2_is_stuck_condition_bt_node
+[1.303s] [ 18%] Built target nav2_clear_costmap_service_bt_node
+[1.307s] [35m[1mConsolidate compiler generated dependencies of target nav2_time_expired_condition_bt_node[0m
+[1.328s] [ 19%] Built target nav2_globally_updated_goal_condition_bt_node
+[1.340s] [ 20%] Built target nav2_is_path_valid_condition_bt_node
+[1.344s] [ 21%] Built target nav2_transform_available_condition_bt_node
+[1.358s] [ 22%] Built target nav2_goal_reached_condition_bt_node
+[1.364s] [35m[1mConsolidate compiler generated dependencies of target nav2_path_expiring_timer_condition[0m
+[1.364s] [ 23%] Built target nav2_goal_updated_condition_bt_node
+[1.368s] [ 24%] Built target nav2_time_expired_condition_bt_node
+[1.387s] [35m[1mConsolidate compiler generated dependencies of target nav2_distance_traveled_condition_bt_node[0m
+[1.405s] [35m[1mConsolidate compiler generated dependencies of target nav2_rate_controller_bt_node[0m
+[1.406s] [35m[1mConsolidate compiler generated dependencies of target nav2_initial_pose_received_condition_bt_node[0m
+[1.415s] [35m[1mConsolidate compiler generated dependencies of target nav2_is_battery_low_condition_bt_node[0m
+[1.417s] [35m[1mConsolidate compiler generated dependencies of target nav2_reinitialize_global_localization_service_bt_node[0m
+[1.418s] [35m[1mConsolidate compiler generated dependencies of target nav2_is_battery_charging_condition_bt_node[0m
+[1.439s] [35m[1mConsolidate compiler generated dependencies of target nav2_distance_controller_bt_node[0m
+[1.453s] [ 25%] Built target nav2_path_expiring_timer_condition
+[1.476s] [ 27%] Built target nav2_initial_pose_received_condition_bt_node
+[1.476s] [ 27%] Built target nav2_distance_traveled_condition_bt_node
+[1.477s] [ 28%] Built target nav2_is_battery_low_condition_bt_node
+[1.488s] [ 29%] Built target nav2_rate_controller_bt_node
+[1.502s] [ 30%] Built target nav2_is_battery_charging_condition_bt_node
+[1.510s] [ 31%] Built target nav2_distance_controller_bt_node
+[1.512s] [ 32%] Built target nav2_reinitialize_global_localization_service_bt_node
+[1.535s] [35m[1mConsolidate compiler generated dependencies of target nav2_speed_controller_bt_node[0m
+[1.558s] [35m[1mConsolidate compiler generated dependencies of target nav2_truncate_path_action_bt_node[0m
+[1.558s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_updater_node_bt_node[0m
+[1.558s] [35m[1mConsolidate compiler generated dependencies of target nav2_truncate_path_local_action_bt_node[0m
+[1.558s] [35m[1mConsolidate compiler generated dependencies of target nav2_recovery_node_bt_node[0m
+[1.560s] [35m[1mConsolidate compiler generated dependencies of target nav2_path_longer_on_approach_bt_node[0m
+[1.564s] [35m[1mConsolidate compiler generated dependencies of target nav2_navigate_through_poses_action_bt_node[0m
+[1.572s] [35m[1mConsolidate compiler generated dependencies of target nav2_navigate_to_pose_action_bt_node[0m
+[1.603s] [ 33%] Built target nav2_speed_controller_bt_node
+[1.612s] [ 34%] Built target nav2_truncate_path_action_bt_node
+[1.646s] [ 35%] Built target nav2_recovery_node_bt_node
+[1.646s] [ 36%] Built target nav2_truncate_path_local_action_bt_node
+[1.646s] [ 37%] Built target nav2_navigate_to_pose_action_bt_node
+[1.646s] [ 38%] Built target nav2_path_longer_on_approach_bt_node
+[1.653s] [ 39%] Built target nav2_navigate_through_poses_action_bt_node
+[1.660s] [ 40%] Built target nav2_goal_updater_node_bt_node
+[1.668s] [35m[1mConsolidate compiler generated dependencies of target nav2_remove_passed_goals_action_bt_node[0m
+[1.668s] [35m[1mConsolidate compiler generated dependencies of target nav2_pipeline_sequence_bt_node[0m
+[1.677s] [35m[1mConsolidate compiler generated dependencies of target nav2_round_robin_node_bt_node[0m
+[1.677s] [35m[1mConsolidate compiler generated dependencies of target nav2_controller_selector_bt_node[0m
+[1.692s] [35m[1mConsolidate compiler generated dependencies of target nav2_single_trigger_bt_node[0m
+[1.692s] [35m[1mConsolidate compiler generated dependencies of target nav2_planner_selector_bt_node[0m
+[1.695s] [35m[1mConsolidate compiler generated dependencies of target nav2_smoother_selector_bt_node[0m
+[1.711s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_checker_selector_bt_node[0m
+[1.711s] [ 41%] Built target nav2_remove_passed_goals_action_bt_node
+[1.712s] [ 42%] Built target nav2_controller_selector_bt_node
+[1.720s] [ 43%] Built target nav2_pipeline_sequence_bt_node
+[1.727s] [ 44%] Built target nav2_round_robin_node_bt_node
+[1.729s] [ 45%] Built target nav2_planner_selector_bt_node
+[1.740s] [ 46%] Built target nav2_smoother_selector_bt_node
+[1.745s] [ 47%] Built target nav2_single_trigger_bt_node
+[1.754s] [ 48%] Built target nav2_goal_checker_selector_bt_node
+[1.763s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.772s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.780s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_updated_controller_bt_node[0m
+[1.798s] [ 48%] Built target gtest
+[1.810s] [ 49%] Built target gtest_main
+[1.827s] [ 50%] Built target nav2_goal_updated_controller_bt_node
+[1.837s] [35m[1mConsolidate compiler generated dependencies of target test_bt_conversions[0m
+[1.837s] [35m[1mConsolidate compiler generated dependencies of target test_condition_time_expired[0m
+[1.857s] [35m[1mConsolidate compiler generated dependencies of target test_condition_distance_traveled[0m
+[1.866s] [35m[1mConsolidate compiler generated dependencies of target test_condition_globally_updated_goal[0m
+[1.866s] [35m[1mConsolidate compiler generated dependencies of target test_condition_path_expiring_timer[0m
+[1.866s] [35m[1mConsolidate compiler generated dependencies of target test_condition_goal_updated[0m
+[1.867s] [35m[1mConsolidate compiler generated dependencies of target test_condition_goal_reached[0m
+[1.879s] [35m[1mConsolidate compiler generated dependencies of target test_condition_initial_pose_received[0m
+[1.888s] [ 51%] Built target test_bt_conversions
+[1.917s] [ 52%] Built target test_condition_distance_traveled
+[1.917s] [ 53%] Built target test_condition_time_expired
+[1.923s] [ 54%] Built target test_condition_goal_updated
+[1.925s] [ 55%] Built target test_condition_path_expiring_timer
+[1.929s] [ 56%] Built target test_condition_initial_pose_received
+[1.930s] [ 57%] Built target test_condition_goal_reached
+[1.931s] [ 58%] Built target test_condition_globally_updated_goal
+[1.949s] [35m[1mConsolidate compiler generated dependencies of target test_condition_transform_available[0m
+[1.949s] [35m[1mConsolidate compiler generated dependencies of target test_condition_is_stuck[0m
+[1.950s] [35m[1mConsolidate compiler generated dependencies of target test_condition_is_battery_charging[0m
+[1.953s] [35m[1mConsolidate compiler generated dependencies of target test_condition_is_battery_low[0m
+[1.973s] [35m[1mConsolidate compiler generated dependencies of target test_condition_is_path_valid[0m
+[1.991s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_distance_controller[0m
+[1.993s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_rate_controller[0m
+[1.993s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_speed_controller[0m
+[2.005s] [ 59%] Built target test_condition_transform_available
+[2.017s] [ 60%] Built target test_condition_is_battery_low
+[2.024s] [ 61%] Built target test_condition_is_stuck
+[2.024s] [ 62%] Built target test_condition_is_path_valid
+[2.064s] [ 63%] Built target test_decorator_distance_controller
+[2.086s] [ 64%] Built target test_decorator_rate_controller
+[2.087s] [ 65%] Built target test_decorator_speed_controller
+[2.087s] [ 66%] Built target test_condition_is_battery_charging
+[2.087s] [35m[1mConsolidate compiler generated dependencies of target test_goal_updated_controller[0m
+[2.087s] [35m[1mConsolidate compiler generated dependencies of target test_goal_updater_node[0m
+[2.087s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_path_longer_on_approach[0m
+[2.091s] [35m[1mConsolidate compiler generated dependencies of target test_control_pipeline_sequence[0m
+[2.105s] [35m[1mConsolidate compiler generated dependencies of target test_control_recovery_node[0m
+[2.109s] [35m[1mConsolidate compiler generated dependencies of target test_single_trigger_node[0m
+[2.113s] [35m[1mConsolidate compiler generated dependencies of target test_bt_action_node[0m
+[2.117s] [ 67%] Built target test_goal_updater_node
+[2.124s] [ 68%] Built target test_decorator_path_longer_on_approach
+[2.125s] [35m[1mConsolidate compiler generated dependencies of target test_control_round_robin_node[0m
+[2.131s] [ 69%] Built target test_goal_updated_controller
+[2.153s] [ 70%] Built target test_control_recovery_node
+[2.154s] [ 71%] Built target test_single_trigger_node
+[2.159s] [ 72%] Built target test_control_pipeline_sequence
+[2.166s] [ 73%] Built target test_bt_action_node
+[2.181s] [ 74%] Built target test_control_round_robin_node
+[2.181s] [35m[1mConsolidate compiler generated dependencies of target test_action_spin_action[0m
+[2.184s] [35m[1mConsolidate compiler generated dependencies of target test_action_back_up_action[0m
+[2.203s] [35m[1mConsolidate compiler generated dependencies of target test_action_drive_on_heading[0m
+[2.203s] [35m[1mConsolidate compiler generated dependencies of target test_action_assisted_teleop_action[0m
+[2.203s] [35m[1mConsolidate compiler generated dependencies of target test_action_wait_cancel_action[0m
+[2.209s] [35m[1mConsolidate compiler generated dependencies of target test_action_controller_cancel_action[0m
+[2.216s] [35m[1mConsolidate compiler generated dependencies of target test_action_wait_action[0m
+[2.228s] [ 75%] Built target test_action_spin_action
+[2.244s] [35m[1mConsolidate compiler generated dependencies of target test_action_spin_cancel_action[0m
+[2.247s] [ 76%] Built target test_action_back_up_action
+[2.261s] [ 77%] Built target test_action_drive_on_heading
+[2.266s] [ 78%] Built target test_action_wait_cancel_action
+[2.267s] [ 79%] Built target test_action_assisted_teleop_action
+[2.270s] [ 80%] Built target test_action_controller_cancel_action
+[2.282s] [ 81%] Built target test_action_wait_action
+[2.293s] [ 82%] Built target test_action_spin_cancel_action
+[2.300s] [35m[1mConsolidate compiler generated dependencies of target test_action_back_up_cancel_action[0m
+[2.310s] [35m[1mConsolidate compiler generated dependencies of target test_action_drive_on_heading_cancel_action[0m
+[2.313s] [35m[1mConsolidate compiler generated dependencies of target test_action_assisted_teleop_cancel_action[0m
+[2.321s] [35m[1mConsolidate compiler generated dependencies of target test_action_clear_costmap_service[0m
+[2.329s] [35m[1mConsolidate compiler generated dependencies of target test_action_compute_path_to_pose_action[0m
+[2.333s] [35m[1mConsolidate compiler generated dependencies of target test_action_compute_path_through_poses_action[0m
+[2.333s] [35m[1mConsolidate compiler generated dependencies of target test_action_smooth_path_action[0m
+[2.343s] [ 83%] Built target test_action_back_up_cancel_action
+[2.359s] [35m[1mConsolidate compiler generated dependencies of target test_action_reinitialize_global_localization_service[0m
+[2.362s] [ 84%] Built target test_action_clear_costmap_service
+[2.365s] [ 85%] Built target test_action_assisted_teleop_cancel_action
+[2.379s] [ 86%] Built target test_action_drive_on_heading_cancel_action
+[2.381s] [ 87%] Built target test_action_smooth_path_action
+[2.381s] [ 88%] Built target test_action_compute_path_to_pose_action
+[2.386s] [35m[1mConsolidate compiler generated dependencies of target test_action_follow_path_action[0m
+[2.396s] [ 89%] Built target test_action_reinitialize_global_localization_service
+[2.397s] [ 90%] Built target test_action_compute_path_through_poses_action
+[2.409s] [35m[1mConsolidate compiler generated dependencies of target test_action_navigate_through_poses_action[0m
+[2.420s] [35m[1mConsolidate compiler generated dependencies of target test_action_navigate_to_pose_action[0m
+[2.423s] [35m[1mConsolidate compiler generated dependencies of target test_truncate_path_local_action[0m
+[2.427s] [35m[1mConsolidate compiler generated dependencies of target test_remove_passed_goals_action[0m
+[2.427s] [ 91%] Built target test_action_follow_path_action
+[2.429s] [35m[1mConsolidate compiler generated dependencies of target test_truncate_path_action[0m
+[2.445s] [35m[1mConsolidate compiler generated dependencies of target test_planner_selector_node[0m
+[2.460s] [ 92%] Built target test_action_navigate_through_poses_action
+[2.461s] [35m[1mConsolidate compiler generated dependencies of target test_controller_selector_node[0m
+[2.471s] [ 93%] Built target test_action_navigate_to_pose_action
+[2.476s] [ 94%] Built target test_truncate_path_local_action
+[2.482s] [35m[1mConsolidate compiler generated dependencies of target test_smoother_selector_node[0m
+[2.489s] [ 95%] Built target test_remove_passed_goals_action
+[2.492s] [ 96%] Built target test_planner_selector_node
+[2.493s] [ 97%] Built target test_truncate_path_action
+[2.496s] [ 98%] Built target test_controller_selector_node
+[2.509s] [35m[1mConsolidate compiler generated dependencies of target test_goal_checker_selector_node[0m
+[2.512s] [ 99%] Built target test_smoother_selector_node
+[2.537s] [100%] Built target test_goal_checker_selector_node
+[2.685s] Invoked command in '/home/ricardo/rm_ws/build/nav2_behavior_tree' returned '0': CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/navigation2:/home/ricardo/rm_ws/install/nav2_smoother:/home/ricardo/rm_ws/install/nav2_dwb_controller:/home/ricardo/rm_ws/install/nav2_controller:/home/ricardo/rm_ws/install/dwb_plugins:/home/ricardo/rm_ws/install/dwb_critics:/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_waypoint_follower:/home/ricardo/rm_ws/install/nav2_theta_star_planner:/home/ricardo/rm_ws/install/nav2_smac_planner:/home/ricardo/rm_ws/install/nav2_rotation_shim_controller:/home/ricardo/rm_ws/install/nav2_regulated_pure_pursuit_controller:/home/ricardo/rm_ws/install/nav2_planner:/home/ricardo/rm_ws/install/nav2_navfn_planner:/home/ricardo/rm_ws/install/nav2_mppi_controller:/home/ricardo/rm_ws/install/nav2_constrained_smoother:/home/ricardo/rm_ws/install/nav2_bt_navigator:/home/ricardo/rm_ws/install/nav2_behaviors:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_collision_monitor:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_velocity_smoother:/home/ricardo/rm_ws/install/nav2_rviz_plugins:/home/ricardo/rm_ws/install/nav2_map_server:/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_amcl:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/nav2_simple_commander:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/nav2_smoother/lib:/home/ricardo/rm_ws/install/nav2_controller/lib:/home/ricardo/rm_ws/install/dwb_plugins/lib:/home/ricardo/rm_ws/install/dwb_critics/lib:/home/ricardo/rm_ws/install/dwb_core/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:/home/ricardo/rm_ws/install/nav2_waypoint_follower/lib:/home/ricardo/rm_ws/install/nav2_theta_star_planner/lib:/home/ricardo/rm_ws/install/nav2_smac_planner/lib:/home/ricardo/rm_ws/install/nav2_rotation_shim_controller/lib:/home/ricardo/rm_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/ricardo/rm_ws/install/nav2_planner/lib:/home/ricardo/rm_ws/install/nav2_navfn_planner/lib:/home/ricardo/rm_ws/install/nav2_mppi_controller/lib:/home/ricardo/rm_ws/install/nav2_constrained_smoother/lib:/home/ricardo/rm_ws/install/nav2_bt_navigator/lib:/home/ricardo/rm_ws/install/nav2_behaviors/lib:/home/ricardo/rm_ws/install/nav2_collision_monitor/lib:/home/ricardo/rm_ws/install/costmap_queue/lib:/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_velocity_smoother/lib:/home/ricardo/rm_ws/install/nav2_rviz_plugins/lib:/home/ricardo/rm_ws/install/nav2_map_server/lib:/home/ricardo/rm_ws/install/nav2_lifecycle_manager/lib:/home/ricardo/rm_ws/install/nav2_behavior_tree/lib:/home/ricardo/rm_ws/install/nav2_amcl/lib:/home/ricardo/rm_ws/install/cartographer_ros/lib:/home/ricardo/rm_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_behavior_tree -- -j8 -l8
+[3.571s] Invoking command in '/home/ricardo/rm_ws/build/nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/navigation2:/home/ricardo/rm_ws/install/nav2_smoother:/home/ricardo/rm_ws/install/nav2_dwb_controller:/home/ricardo/rm_ws/install/nav2_controller:/home/ricardo/rm_ws/install/dwb_plugins:/home/ricardo/rm_ws/install/dwb_critics:/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_waypoint_follower:/home/ricardo/rm_ws/install/nav2_theta_star_planner:/home/ricardo/rm_ws/install/nav2_smac_planner:/home/ricardo/rm_ws/install/nav2_rotation_shim_controller:/home/ricardo/rm_ws/install/nav2_regulated_pure_pursuit_controller:/home/ricardo/rm_ws/install/nav2_planner:/home/ricardo/rm_ws/install/nav2_navfn_planner:/home/ricardo/rm_ws/install/nav2_mppi_controller:/home/ricardo/rm_ws/install/nav2_constrained_smoother:/home/ricardo/rm_ws/install/nav2_bt_navigator:/home/ricardo/rm_ws/install/nav2_behaviors:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_collision_monitor:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_velocity_smoother:/home/ricardo/rm_ws/install/nav2_rviz_plugins:/home/ricardo/rm_ws/install/nav2_map_server:/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_amcl:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/nav2_simple_commander:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/nav2_smoother/lib:/home/ricardo/rm_ws/install/nav2_controller/lib:/home/ricardo/rm_ws/install/dwb_plugins/lib:/home/ricardo/rm_ws/install/dwb_critics/lib:/home/ricardo/rm_ws/install/dwb_core/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:/home/ricardo/rm_ws/install/nav2_waypoint_follower/lib:/home/ricardo/rm_ws/install/nav2_theta_star_planner/lib:/home/ricardo/rm_ws/install/nav2_smac_planner/lib:/home/ricardo/rm_ws/install/nav2_rotation_shim_controller/lib:/home/ricardo/rm_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/ricardo/rm_ws/install/nav2_planner/lib:/home/ricardo/rm_ws/install/nav2_navfn_planner/lib:/home/ricardo/rm_ws/install/nav2_mppi_controller/lib:/home/ricardo/rm_ws/install/nav2_constrained_smoother/lib:/home/ricardo/rm_ws/install/nav2_bt_navigator/lib:/home/ricardo/rm_ws/install/nav2_behaviors/lib:/home/ricardo/rm_ws/install/nav2_collision_monitor/lib:/home/ricardo/rm_ws/install/costmap_queue/lib:/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_velocity_smoother/lib:/home/ricardo/rm_ws/install/nav2_rviz_plugins/lib:/home/ricardo/rm_ws/install/nav2_map_server/lib:/home/ricardo/rm_ws/install/nav2_lifecycle_manager/lib:/home/ricardo/rm_ws/install/nav2_behavior_tree/lib:/home/ricardo/rm_ws/install/nav2_amcl/lib:/home/ricardo/rm_ws/install/cartographer_ros/lib:/home/ricardo/rm_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_behavior_tree
+[3.584s] -- Install configuration: "Release"
+[3.586s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[3.588s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[3.590s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[3.592s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+[3.594s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+[3.596s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+[3.598s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+[3.600s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
+[3.602s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+[3.605s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+[3.606s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[3.608s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[3.609s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+[3.611s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[3.612s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[3.614s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
+[3.617s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[3.619s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[3.620s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[3.623s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[3.624s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+[3.626s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[3.628s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+[3.630s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[3.632s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+[3.634s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[3.636s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[3.638s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so
+[3.640s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[3.642s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[3.643s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[3.645s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[3.647s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[3.650s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[3.652s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+[3.654s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[3.655s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+[3.657s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[3.660s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[3.662s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[3.663s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[3.664s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[3.666s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[3.668s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[3.670s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[3.672s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[3.674s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so
+[3.676s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[3.678s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+[3.678s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include/
+[3.679s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree
+[3.679s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+[3.679s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[3.680s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[3.680s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[3.680s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins
+[3.680s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action
+[3.680s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_cancel_node.hpp
+[3.680s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[3.680s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp
+[3.680s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+[3.681s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[3.681s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_cancel_node.hpp
+[3.681s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+[3.681s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[3.681s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[3.681s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp
+[3.681s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+[3.681s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+[3.681s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+[3.682s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[3.682s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_cancel_node.hpp
+[3.682s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_action.hpp
+[3.682s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_cancel_node.hpp
+[3.682s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp
+[3.682s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smooth_path_action.hpp
+[3.682s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[3.682s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[3.682s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+[3.682s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp
+[3.682s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[3.682s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smoother_selector_node.hpp
+[3.682s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[3.682s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator
+[3.683s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+[3.683s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[3.683s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[3.683s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[3.683s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[3.683s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+[3.683s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[3.683s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition
+[3.683s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_charging_condition.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+[3.684s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_cancel_action_node.hpp
+[3.685s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+[3.685s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[3.685s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[3.685s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[3.685s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[3.685s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[3.685s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[3.685s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[3.686s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[3.686s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[3.686s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[3.686s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[3.686s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[3.686s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[3.686s] -- Installing: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[3.686s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[3.686s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.686s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[3.686s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.687s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[3.687s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[3.687s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[3.688s] Invoked command in '/home/ricardo/rm_ws/build/nav2_behavior_tree' returned '0': CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/navigation2:/home/ricardo/rm_ws/install/nav2_smoother:/home/ricardo/rm_ws/install/nav2_dwb_controller:/home/ricardo/rm_ws/install/nav2_controller:/home/ricardo/rm_ws/install/dwb_plugins:/home/ricardo/rm_ws/install/dwb_critics:/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_waypoint_follower:/home/ricardo/rm_ws/install/nav2_theta_star_planner:/home/ricardo/rm_ws/install/nav2_smac_planner:/home/ricardo/rm_ws/install/nav2_rotation_shim_controller:/home/ricardo/rm_ws/install/nav2_regulated_pure_pursuit_controller:/home/ricardo/rm_ws/install/nav2_planner:/home/ricardo/rm_ws/install/nav2_navfn_planner:/home/ricardo/rm_ws/install/nav2_mppi_controller:/home/ricardo/rm_ws/install/nav2_constrained_smoother:/home/ricardo/rm_ws/install/nav2_bt_navigator:/home/ricardo/rm_ws/install/nav2_behaviors:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_collision_monitor:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_velocity_smoother:/home/ricardo/rm_ws/install/nav2_rviz_plugins:/home/ricardo/rm_ws/install/nav2_map_server:/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_behavior_tree:/home/ricardo/rm_ws/install/nav2_amcl:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/nav2_simple_commander:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/nav2_smoother/lib:/home/ricardo/rm_ws/install/nav2_controller/lib:/home/ricardo/rm_ws/install/dwb_plugins/lib:/home/ricardo/rm_ws/install/dwb_critics/lib:/home/ricardo/rm_ws/install/dwb_core/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:/home/ricardo/rm_ws/install/nav2_waypoint_follower/lib:/home/ricardo/rm_ws/install/nav2_theta_star_planner/lib:/home/ricardo/rm_ws/install/nav2_smac_planner/lib:/home/ricardo/rm_ws/install/nav2_rotation_shim_controller/lib:/home/ricardo/rm_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/ricardo/rm_ws/install/nav2_planner/lib:/home/ricardo/rm_ws/install/nav2_navfn_planner/lib:/home/ricardo/rm_ws/install/nav2_mppi_controller/lib:/home/ricardo/rm_ws/install/nav2_constrained_smoother/lib:/home/ricardo/rm_ws/install/nav2_bt_navigator/lib:/home/ricardo/rm_ws/install/nav2_behaviors/lib:/home/ricardo/rm_ws/install/nav2_collision_monitor/lib:/home/ricardo/rm_ws/install/costmap_queue/lib:/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_velocity_smoother/lib:/home/ricardo/rm_ws/install/nav2_rviz_plugins/lib:/home/ricardo/rm_ws/install/nav2_map_server/lib:/home/ricardo/rm_ws/install/nav2_lifecycle_manager/lib:/home/ricardo/rm_ws/install/nav2_behavior_tree/lib:/home/ricardo/rm_ws/install/nav2_amcl/lib:/home/ricardo/rm_ws/install/cartographer_ros/lib:/home/ricardo/rm_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_behavior_tree

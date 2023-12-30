@@ -1,0 +1,133 @@
+[0.129s] Invoking command in '/home/ricardo/rm_ws/build/dwb_critics': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/dwb_core/lib:/home/ricardo/rm_ws/install/costmap_queue/lib:/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_dwb_controller/dwb_critics -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/dwb_critics
+[1.195s] -- The C compiler identification is GNU 11.4.0
+[1.196s] -- The CXX compiler identification is GNU 11.4.0
+[1.197s] -- Detecting C compiler ABI info
+[1.197s] -- Detecting C compiler ABI info - done
+[1.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.200s] -- Detecting C compile features
+[1.200s] -- Detecting C compile features - done
+[1.201s] -- Detecting CXX compiler ABI info
+[1.201s] -- Detecting CXX compiler ABI info - done
+[1.201s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.201s] -- Detecting CXX compile features
+[1.201s] -- Detecting CXX compile features - done
+[1.201s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.201s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.202s] -- Found nav2_common: 1.1.12 (/home/ricardo/rm_ws/install/nav2_common/share/nav2_common/cmake)
+[1.202s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.202s] -- Found nav2_costmap_2d: 1.1.12 (/home/ricardo/rm_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[1.202s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.202s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.202s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.355s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.359s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.528s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.564s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.620s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.634s] -- Looking for pthread.h
+[1.765s] -- Looking for pthread.h - found
+[1.765s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.867s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.868s] -- Found Threads: TRUE  
+[2.994s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.994s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.953s] -- Found costmap_queue: 1.1.12 (/home/ricardo/rm_ws/install/costmap_queue/share/costmap_queue/cmake)
+[3.955s] -- Found dwb_core: 1.1.12 (/home/ricardo/rm_ws/install/dwb_core/share/dwb_core/cmake)
+[8.248s] -- Setting build type to Release as none was specified.
+[19.253s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.412s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[19.433s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.433s] -- Configured cppcheck include dirs: /home/ricardo/rm_ws/src/navigation2/nav2_dwb_controller/dwb_critics/include
+[19.433s] -- Configured cppcheck exclude dirs and/or files: 
+[19.436s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[19.436s] -- Configured cpplint exclude dirs and/or files: 
+[19.437s] -- Added test 'lint_cmake' to check CMake code style
+[19.439s] -- Added test 'uncrustify' to check C / C++ code style
+[19.439s] -- Configured uncrustify additional arguments: 
+[19.440s] -- Added test 'xmllint' to check XML markup files
+[19.445s] -- Configuring done
+[19.700s] -- Generating done
+[19.704s] -- Build files have been written to: /home/ricardo/rm_ws/build/dwb_critics
+[19.738s] Invoked command in '/home/ricardo/rm_ws/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/dwb_core/lib:/home/ricardo/rm_ws/install/costmap_queue/lib:/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_dwb_controller/dwb_critics -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/dwb_critics
+[19.739s] Invoking command in '/home/ricardo/rm_ws/build/dwb_critics': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/dwb_core/lib:/home/ricardo/rm_ws/install/costmap_queue/lib:/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/dwb_critics -- -j8 -l8
+[20.517s] [  3%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/alignment_util.cpp.o[0m
+[20.629s] [  7%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/path_align.cpp.o[0m
+[21.706s] [ 11%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/goal_align.cpp.o[0m
+[21.718s] [ 14%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/base_obstacle.cpp.o[0m
+[22.789s] [ 18%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/path_dist.cpp.o[0m
+[23.856s] [ 22%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/goal_dist.cpp.o[0m
+[24.928s] [ 25%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/map_grid.cpp.o[0m
+[46.555s] [ 29%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/twirling.cpp.o[0m
+[58.651s] [ 33%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/rotate_to_goal.cpp.o[0m
+[67.196s] [ 37%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/prefer_forward.cpp.o[0m
+[74.744s] [ 40%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/oscillation.cpp.o[0m
+[82.501s] [ 44%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/obstacle_footprint.cpp.o[0m
+[90.266s] [ 48%] [32m[1mLinking CXX shared library libdwb_critics.so[0m
+[90.864s] [ 48%] Built target dwb_critics
+[90.907s] [ 51%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[101.019s] [ 55%] [32m[1mLinking CXX static library libgtest.a[0m
+[101.092s] [ 55%] Built target gtest
+[101.137s] [ 59%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[102.269s] [ 62%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[102.333s] [ 62%] Built target gtest_main
+[102.381s] [ 66%] [32mBuilding CXX object test/CMakeFiles/prefer_forward_tests.dir/prefer_forward_test.cpp.o[0m
+[111.935s] [ 70%] [32m[1mLinking CXX executable prefer_forward_tests[0m
+[112.448s] [ 70%] Built target prefer_forward_tests
+[112.496s] [ 74%] [32mBuilding CXX object test/CMakeFiles/twirling_tests.dir/twirling_test.cpp.o[0m
+[121.689s] [ 77%] [32m[1mLinking CXX executable twirling_tests[0m
+[122.241s] [ 77%] Built target twirling_tests
+[122.285s] [ 81%] [32mBuilding CXX object test/CMakeFiles/alignment_util_tests.dir/alignment_util_test.cpp.o[0m
+[127.598s] [ 85%] [32m[1mLinking CXX executable alignment_util_tests[0m
+[128.017s] [ 85%] Built target alignment_util_tests
+[128.060s] [ 88%] [32mBuilding CXX object test/CMakeFiles/obstacle_footprint_tests.dir/obstacle_footprint_test.cpp.o[0m
+[138.224s] [ 92%] [32m[1mLinking CXX executable obstacle_footprint_tests[0m
+[138.898s] [ 92%] Built target obstacle_footprint_tests
+[138.937s] [ 96%] [32mBuilding CXX object test/CMakeFiles/base_obstacle_tests.dir/base_obstacle_test.cpp.o[0m
+[149.050s] [100%] [32m[1mLinking CXX executable base_obstacle_tests[0m
+[149.660s] [100%] Built target base_obstacle_tests
+[149.743s] Invoked command in '/home/ricardo/rm_ws/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/dwb_core/lib:/home/ricardo/rm_ws/install/costmap_queue/lib:/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/dwb_critics -- -j8 -l8
+[149.890s] Invoking command in '/home/ricardo/rm_ws/build/dwb_critics': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/dwb_core/lib:/home/ricardo/rm_ws/install/costmap_queue/lib:/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/dwb_critics
+[161.643s] -- Install configuration: "Release"
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/lib/libdwb_critics.so
+[161.643s] -- Set runtime path of "/home/ricardo/rm_ws/install/dwb_critics/lib/libdwb_critics.so" to ""
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include/
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include//dwb_critics
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include//dwb_critics/map_grid.hpp
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include//dwb_critics/prefer_forward.hpp
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include//dwb_critics/base_obstacle.hpp
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include//dwb_critics/rotate_to_goal.hpp
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include//dwb_critics/twirling.hpp
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include//dwb_critics/goal_dist.hpp
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include//dwb_critics/oscillation.hpp
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include//dwb_critics/goal_align.hpp
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include//dwb_critics/obstacle_footprint.hpp
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include//dwb_critics/line_iterator.hpp
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include//dwb_critics/path_dist.hpp
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include//dwb_critics/alignment_util.hpp
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/include//dwb_critics/path_align.hpp
+[161.643s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/default_critics.xml
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/environment/library_path.sh
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/environment/library_path.dsv
+[161.644s] -- Up-to-date: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/default_critics.xml
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/ament_index/resource_index/package_run_dependencies/dwb_critics
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/ament_index/resource_index/parent_prefix_path/dwb_critics
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/environment/ament_prefix_path.sh
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/environment/ament_prefix_path.dsv
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/environment/path.sh
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/environment/path.dsv
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/local_setup.bash
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/local_setup.sh
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/local_setup.zsh
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/local_setup.dsv
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/package.dsv
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/ament_index/resource_index/packages/dwb_critics
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/ament_index/resource_index/dwb_core__pluginlib__plugin/dwb_critics
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_include_directories-extras.cmake
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_libraries-extras.cmake
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_dependencies-extras.cmake
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/cmake/dwb_criticsConfig.cmake
+[161.644s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/cmake/dwb_criticsConfig-version.cmake
+[161.645s] -- Installing: /home/ricardo/rm_ws/install/dwb_critics/share/dwb_critics/package.xml
+[161.648s] Invoked command in '/home/ricardo/rm_ws/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/dwb_core:/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/costmap_queue:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/dwb_core/lib:/home/ricardo/rm_ws/install/costmap_queue/lib:/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/dwb_critics

@@ -1,0 +1,136 @@
+[0.085s] Invoking command in '/home/ricardo/rm_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_rviz_plugins -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/nav2_rviz_plugins
+[0.154s] -- The C compiler identification is GNU 11.4.0
+[0.219s] -- The CXX compiler identification is GNU 11.4.0
+[0.228s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.323s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.323s] -- Detecting C compile features
+[0.324s] -- Detecting C compile features - done
+[0.327s] -- Detecting CXX compiler ABI info
+[0.421s] -- Detecting CXX compiler ABI info - done
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.429s] -- Detecting CXX compile features
+[0.430s] -- Detecting CXX compile features - done
+[0.433s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.625s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.733s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.774s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.780s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.793s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.830s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.950s] -- Found nav2_util: 1.1.12 (/home/ricardo/rm_ws/install/nav2_util/share/nav2_util/cmake)
+[1.418s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.421s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.559s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.589s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.637s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.648s] -- Looking for pthread.h
+[1.739s] -- Looking for pthread.h - found
+[1.739s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.830s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.832s] -- Found Threads: TRUE  
+[2.208s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.210s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.210s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.422s] -- Found nav2_lifecycle_manager: 1.1.12 (/home/ricardo/rm_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake)
+[3.042s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[3.142s] -- Found rviz_common: 11.2.9 (/opt/ros/humble/share/rviz_common/cmake)
+[3.178s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.184s] -- Found OGRE
+[3.184s] --   static     : OFF
+[3.184s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.184s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.184s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.185s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.185s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[3.185s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.185s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[3.185s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.185s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.185s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.185s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.215s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.224s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.371s] -- Found X11: /usr/include   
+[3.373s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.467s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.467s] -- Looking for gethostbyname
+[3.554s] -- Looking for gethostbyname - found
+[3.554s] -- Looking for connect
+[3.643s] -- Looking for connect - found
+[3.643s] -- Looking for remove
+[3.735s] -- Looking for remove - found
+[3.735s] -- Looking for shmat
+[3.823s] -- Looking for shmat - found
+[3.823s] -- Looking for IceConnectionNumber in ICE
+[3.916s] -- Looking for IceConnectionNumber in ICE - found
+[3.919s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.919s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[4.056s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.238s] -- Found rviz_default_plugins: 11.2.9 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[6.547s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.633s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.635s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.635s] -- Configured cppcheck include dirs: /home/ricardo/rm_ws/src/navigation2/nav2_rviz_plugins/include
+[6.636s] -- Configured cppcheck exclude dirs and/or files: 
+[6.637s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.637s] -- Configured cpplint exclude dirs and/or files: 
+[6.638s] -- Added test 'lint_cmake' to check CMake code style
+[6.639s] -- Added test 'uncrustify' to check C / C++ code style
+[6.639s] -- Configured uncrustify additional arguments: 
+[6.642s] -- Added test 'xmllint' to check XML markup files
+[6.643s] -- Configuring done
+[6.727s] -- Generating done
+[6.730s] -- Build files have been written to: /home/ricardo/rm_ws/build/nav2_rviz_plugins
+[6.751s] Invoked command in '/home/ricardo/rm_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_rviz_plugins -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/nav2_rviz_plugins
+[6.752s] Invoking command in '/home/ricardo/rm_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_rviz_plugins -- -j8 -l8
+[6.823s] [ 14%] [34m[1mAutomatic MOC for target nav2_rviz_plugins[0m
+[7.876s] [ 14%] Built target nav2_rviz_plugins_autogen
+[7.906s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[26.325s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_display.cpp.o[0m
+[26.325s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/flat_weighted_arrows_array.cpp.o[0m
+[26.325s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o[0m
+[26.326s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o[0m
+[65.379s] [100%] [32m[1mLinking CXX shared library libnav2_rviz_plugins.so[0m
+[73.781s] [100%] Built target nav2_rviz_plugins
+[73.796s] Invoked command in '/home/ricardo/rm_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_rviz_plugins -- -j8 -l8
+[73.874s] Invoking command in '/home/ricardo/rm_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_rviz_plugins
+[73.883s] -- Install configuration: ""
+[73.883s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/plugins_description.xml
+[73.884s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so
+[73.903s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so" to ""
+[73.904s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/include/
+[73.904s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins
+[73.904s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/nav2_panel.hpp
+[73.904s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_tool.hpp
+[73.905s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/ros_action_qevent.hpp
+[73.905s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_pose_updater.hpp
+[73.905s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display
+[73.905s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp
+[73.905s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp
+[73.905s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_common.hpp
+[73.905s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.sh
+[73.905s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.dsv
+[73.905s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/nav2_rviz_plugins
+[73.905s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/nav2_rviz_plugins
+[73.906s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.sh
+[73.907s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.dsv
+[73.907s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.sh
+[73.908s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.dsv
+[73.908s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.bash
+[73.908s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.sh
+[73.908s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.zsh
+[73.909s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.dsv
+[73.909s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.dsv
+[73.910s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/packages/nav2_rviz_plugins
+[73.911s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/nav2_rviz_plugins
+[73.912s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport.cmake
+[73.913s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport-noconfig.cmake
+[73.913s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[73.914s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[73.915s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[73.915s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig.cmake
+[73.916s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig-version.cmake
+[73.916s] -- Installing: /home/ricardo/rm_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.xml
+[73.919s] Invoked command in '/home/ricardo/rm_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_lifecycle_manager/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_rviz_plugins

@@ -1,0 +1,160 @@
+[0.178s] Invoking command in '/home/ricardo/rm_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/nav2_map_server
+[0.258s] -- The C compiler identification is GNU 11.4.0
+[0.326s] -- The CXX compiler identification is GNU 11.4.0
+[0.334s] -- Detecting C compiler ABI info
+[0.422s] -- Detecting C compiler ABI info - done
+[0.431s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.431s] -- Detecting C compile features
+[0.431s] -- Detecting C compile features - done
+[0.438s] -- Detecting CXX compiler ABI info
+[0.547s] -- Detecting CXX compiler ABI info - done
+[0.555s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.555s] -- Detecting CXX compile features
+[0.556s] -- Detecting CXX compile features - done
+[0.559s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.756s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.869s] -- Found nav2_common: 1.1.12 (/home/ricardo/rm_ws/install/nav2_common/share/nav2_common/cmake)
+[0.871s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.913s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.919s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.928s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.963s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.032s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.035s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.155s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.186s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.238s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.253s] -- Looking for pthread.h
+[1.359s] -- Looking for pthread.h - found
+[1.360s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.463s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.464s] -- Found Threads: TRUE  
+[1.629s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.675s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.740s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.869s] -- Found nav2_msgs: 1.1.12 (/home/ricardo/rm_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[2.073s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[2.082s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[2.089s] -- Found nav2_util: 1.1.12 (/home/ricardo/rm_ws/install/nav2_util/share/nav2_util/cmake)
+[2.323s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.325s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.325s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.525s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[2.525s] -- Setting build type to Release as none was specified.
+[5.642s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.773s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.783s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.792s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.806s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.808s] -- Configured cppcheck include dirs: /home/ricardo/rm_ws/src/navigation2/nav2_map_server/include
+[5.808s] -- Configured cppcheck exclude dirs and/or files: 
+[5.810s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.810s] -- Configured cpplint exclude dirs and/or files: 
+[5.811s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.812s] -- Added test 'lint_cmake' to check CMake code style
+[5.813s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.816s] -- Added test 'uncrustify' to check C / C++ code style
+[5.816s] -- Configured uncrustify additional arguments: 
+[5.817s] -- Added test 'xmllint' to check XML markup files
+[5.820s] -- Configuring done
+[6.344s] -- Generating done
+[6.347s] -- Build files have been written to: /home/ricardo/rm_ws/build/nav2_map_server
+[6.413s] Invoked command in '/home/ricardo/rm_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/nav2_map_server
+[6.430s] Invoking command in '/home/ricardo/rm_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_map_server -- -j8 -l8
+[6.689s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.712s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.722s] [  8%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[6.760s] [ 11%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[9.368s] [ 13%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[9.564s] [ 13%] Built target gtest_main
+[16.768s] [ 16%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[17.123s] [ 16%] Built target map_io
+[17.187s] [ 19%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[17.198s] [ 22%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[17.204s] [ 25%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[17.236s] [ 27%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[17.240s] [ 30%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[22.508s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[22.685s] [ 33%] Built target gtest
+[22.813s] [ 36%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[22.820s] [ 38%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[22.841s] [ 44%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[22.842s] [ 44%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[28.073s] [ 47%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[29.007s] [ 47%] Built target test_map_saver_publisher
+[39.024s] [ 50%] [32m[1mLinking CXX executable test_map_io[0m
+[39.587s] [ 50%] Built target test_map_io
+[39.822s] [ 52%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[40.038s] [ 52%] Built target test_map_saver_cli
+[41.864s] [ 55%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[42.284s] [ 55%] Built target map_server_core
+[42.316s] [ 58%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[45.993s] [ 61%] [32m[1mLinking CXX executable map_server[0m
+[46.365s] [ 61%] Built target map_server
+[46.394s] [ 63%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[53.179s] [ 66%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[53.297s] [ 69%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[53.612s] [ 69%] Built target test_map_saver_node
+[53.642s] [ 75%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[53.642s] [ 75%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[53.642s] [ 77%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[61.710s] [ 80%] [32m[1mLinking CXX executable test_map_server_node[0m
+[61.995s] [ 80%] Built target test_map_server_node
+[62.025s] [ 83%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[62.026s] [ 86%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[65.530s] [ 88%] [32m[1mLinking CXX executable map_saver_server[0m
+[65.634s] [ 91%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[65.840s] [ 94%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[65.978s] [ 94%] Built target map_saver_server
+[66.010s] [ 97%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[66.129s] [ 97%] Built target costmap_filter_info_server
+[66.345s] [ 97%] Built target test_costmap_filter_info_server
+[69.369s] [100%] [32m[1mLinking CXX executable map_saver_cli[0m
+[69.689s] [100%] Built target map_saver_cli
+[69.705s] Invoked command in '/home/ricardo/rm_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_map_server -- -j8 -l8
+[69.831s] Invoking command in '/home/ricardo/rm_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_map_server
+[69.841s] -- Install configuration: "Release"
+[69.842s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/lib/libmap_server_core.so
+[69.842s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[69.842s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/lib/libmap_io.so
+[69.842s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_map_server/lib/libmap_io.so" to ""
+[69.842s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/lib/nav2_map_server/map_server
+[69.843s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[69.843s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[69.843s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+[69.843s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[69.843s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+[69.843s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[69.845s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+[69.845s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/include/
+[69.845s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/include//nav2_map_server
+[69.845s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[69.846s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[69.846s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[69.846s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[69.846s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[69.846s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/launch
+[69.846s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[69.846s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[69.847s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[69.847s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[69.847s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[69.847s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[69.847s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[69.847s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[69.847s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[69.848s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[69.848s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[69.848s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[69.848s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[69.848s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/package.dsv
+[69.848s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[69.849s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[69.849s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[69.849s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[69.849s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[69.849s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[69.849s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[69.849s] -- Installing: /home/ricardo/rm_ws/install/nav2_map_server/share/nav2_map_server/package.xml
+[69.855s] Invoked command in '/home/ricardo/rm_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_map_server

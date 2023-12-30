@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/topic_text_video/topic_text_video.egg-info
+writing ../../build/topic_text_video/topic_text_video.egg-info/PKG-INFO
+writing dependency_links to ../../build/topic_text_video/topic_text_video.egg-info/dependency_links.txt
+writing entry points to ../../build/topic_text_video/topic_text_video.egg-info/entry_points.txt
+writing requirements to ../../build/topic_text_video/topic_text_video.egg-info/requires.txt
+writing top-level names to ../../build/topic_text_video/topic_text_video.egg-info/top_level.txt
+writing manifest file '../../build/topic_text_video/topic_text_video.egg-info/SOURCES.txt'
+reading manifest file '../../build/topic_text_video/topic_text_video.egg-info/SOURCES.txt'
+writing manifest file '../../build/topic_text_video/topic_text_video.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ricardo/rm_ws/build/topic_text_video/build
+creating /home/ricardo/rm_ws/build/topic_text_video/build/lib
+creating /home/ricardo/rm_ws/build/topic_text_video/build/lib/topic_text_video
+copying topic_text_video/topic_text_publisher.py -> /home/ricardo/rm_ws/build/topic_text_video/build/lib/topic_text_video
+copying topic_text_video/__init__.py -> /home/ricardo/rm_ws/build/topic_text_video/build/lib/topic_text_video
+copying topic_text_video/topic_text_subscriber.py -> /home/ricardo/rm_ws/build/topic_text_video/build/lib/topic_text_video
+running install
+running install_lib
+creating /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video
+copying /home/ricardo/rm_ws/build/topic_text_video/build/lib/topic_text_video/topic_text_publisher.py -> /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video
+copying /home/ricardo/rm_ws/build/topic_text_video/build/lib/topic_text_video/__init__.py -> /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video
+copying /home/ricardo/rm_ws/build/topic_text_video/build/lib/topic_text_video/topic_text_subscriber.py -> /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video
+byte-compiling /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video/topic_text_publisher.py to topic_text_publisher.cpython-310.pyc
+byte-compiling /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video/topic_text_subscriber.py to topic_text_subscriber.cpython-310.pyc
+running install_data
+creating /home/ricardo/rm_ws/install/topic_text_video/share/ament_index
+creating /home/ricardo/rm_ws/install/topic_text_video/share/ament_index/resource_index
+creating /home/ricardo/rm_ws/install/topic_text_video/share/ament_index/resource_index/packages
+copying resource/topic_text_video -> /home/ricardo/rm_ws/install/topic_text_video/share/ament_index/resource_index/packages
+copying package.xml -> /home/ricardo/rm_ws/install/topic_text_video/share/topic_text_video
+running install_egg_info
+Copying ../../build/topic_text_video/topic_text_video.egg-info to /home/ricardo/rm_ws/install/topic_text_video/lib/python3.10/site-packages/topic_text_video-0.0.0-py3.10.egg-info
+running install_scripts
+Installing topic_text_publisher script to /home/ricardo/rm_ws/install/topic_text_video/lib/topic_text_video
+Installing topic_text_subscriber script to /home/ricardo/rm_ws/install/topic_text_video/lib/topic_text_video
+writing list of installed files to '/home/ricardo/rm_ws/build/topic_text_video/install.log'

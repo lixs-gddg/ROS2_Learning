@@ -1,0 +1,109 @@
+[0.573s] Invoking command in '/home/ricardo/rm_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_dwb_controller/dwb_core -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/dwb_core
+[0.786s] -- The C compiler identification is GNU 11.4.0
+[0.933s] -- The CXX compiler identification is GNU 11.4.0
+[0.949s] -- Detecting C compiler ABI info
+[1.190s] -- Detecting C compiler ABI info - done
+[1.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.199s] -- Detecting C compile features
+[1.199s] -- Detecting C compile features - done
+[1.202s] -- Detecting CXX compiler ABI info
+[1.486s] -- Detecting CXX compiler ABI info - done
+[1.498s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.498s] -- Detecting CXX compile features
+[1.500s] -- Detecting CXX compile features - done
+[1.503s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.935s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.083s] -- Found nav2_common: 1.1.12 (/home/ricardo/rm_ws/install/nav2_common/share/nav2_common/cmake)
+[2.090s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.231s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.247s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.266s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.312s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.346s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.443s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.447s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.769s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.865s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.938s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.955s] -- Looking for pthread.h
+[3.113s] -- Looking for pthread.h - found
+[3.113s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.221s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.222s] -- Found Threads: TRUE  
+[3.427s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.478s] -- Found nav_2d_msgs: 1.1.12 (/home/ricardo/rm_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[3.563s] -- Found dwb_msgs: 1.1.12 (/home/ricardo/rm_ws/install/dwb_msgs/share/dwb_msgs/cmake)
+[3.822s] -- Found nav2_costmap_2d: 1.1.12 (/home/ricardo/rm_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[4.743s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.744s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.955s] -- Found nav_2d_utils: 1.1.12 (/home/ricardo/rm_ws/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[6.441s] -- Found nav2_core: 1.1.12 (/home/ricardo/rm_ws/install/nav2_core/share/nav2_core/cmake)
+[7.193s] -- Setting build type to Release as none was specified.
+[14.461s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.584s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.597s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.599s] -- Configured cppcheck include dirs: /home/ricardo/rm_ws/src/navigation2/nav2_dwb_controller/dwb_core/include
+[14.600s] -- Configured cppcheck exclude dirs and/or files: 
+[14.603s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.604s] -- Configured cpplint exclude dirs and/or files: 
+[14.607s] -- Added test 'lint_cmake' to check CMake code style
+[14.610s] -- Added test 'uncrustify' to check C / C++ code style
+[14.610s] -- Configured uncrustify additional arguments: 
+[14.612s] -- Added test 'xmllint' to check XML markup files
+[14.617s] -- Configuring done
+[14.738s] -- Generating done
+[14.742s] -- Build files have been written to: /home/ricardo/rm_ws/build/dwb_core
+[14.780s] Invoked command in '/home/ricardo/rm_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_dwb_controller/dwb_core -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/dwb_core
+[14.780s] Invoking command in '/home/ricardo/rm_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/dwb_core -- -j8 -l8
+[21.485s] [  9%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/dwb_local_planner.cpp.o[0m
+[31.518s] [ 18%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/trajectory_utils.cpp.o[0m
+[35.409s] [ 27%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/illegal_trajectory_tracker.cpp.o[0m
+[36.315s] [ 36%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/publisher.cpp.o[0m
+[54.414s] [ 45%] [32m[1mLinking CXX shared library libdwb_core.so[0m
+[55.070s] [ 45%] Built target dwb_core
+[55.106s] [ 54%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[64.030s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[64.094s] [ 63%] Built target gtest
+[64.130s] [ 72%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[65.190s] [ 81%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[65.247s] [ 81%] Built target gtest_main
+[65.286s] [ 90%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[70.733s] [100%] [32m[1mLinking CXX executable utils_test[0m
+[71.190s] [100%] Built target utils_test
+[71.215s] Invoked command in '/home/ricardo/rm_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/dwb_core -- -j8 -l8
+[71.373s] Invoking command in '/home/ricardo/rm_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/dwb_core
+[71.390s] -- Install configuration: "Release"
+[71.391s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/lib/libdwb_core.so
+[71.393s] -- Set runtime path of "/home/ricardo/rm_ws/install/dwb_core/lib/libdwb_core.so" to ""
+[71.394s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/include/
+[71.395s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/include//dwb_core
+[71.395s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/include//dwb_core/dwb_local_planner.hpp
+[71.396s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/include//dwb_core/trajectory_critic.hpp
+[71.397s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/include//dwb_core/illegal_trajectory_tracker.hpp
+[71.398s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/include//dwb_core/exceptions.hpp
+[71.399s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/include//dwb_core/publisher.hpp
+[71.400s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/include//dwb_core/trajectory_utils.hpp
+[71.400s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/include//dwb_core/trajectory_generator.hpp
+[71.401s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/environment/library_path.sh
+[71.402s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/environment/library_path.dsv
+[71.403s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/local_planner_plugin.xml
+[71.405s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/ament_index/resource_index/package_run_dependencies/dwb_core
+[71.406s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/ament_index/resource_index/parent_prefix_path/dwb_core
+[71.408s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/environment/ament_prefix_path.sh
+[71.409s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/environment/ament_prefix_path.dsv
+[71.410s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/environment/path.sh
+[71.410s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/environment/path.dsv
+[71.412s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/local_setup.bash
+[71.412s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/local_setup.sh
+[71.413s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/local_setup.zsh
+[71.414s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/local_setup.dsv
+[71.415s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/package.dsv
+[71.416s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/ament_index/resource_index/packages/dwb_core
+[71.417s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/ament_index/resource_index/nav2_core__pluginlib__plugin/dwb_core
+[71.418s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[71.419s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_libraries-extras.cmake
+[71.420s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[71.421s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/cmake/dwb_coreConfig.cmake
+[71.422s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/cmake/dwb_coreConfig-version.cmake
+[71.422s] -- Installing: /home/ricardo/rm_ws/install/dwb_core/share/dwb_core/package.xml
+[71.428s] Invoked command in '/home/ricardo/rm_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav_2d_utils:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/dwb_msgs:/home/ricardo/rm_ws/install/nav_2d_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav_2d_utils/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:/home/ricardo/rm_ws/install/dwb_msgs/lib:/home/ricardo/rm_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/dwb_core

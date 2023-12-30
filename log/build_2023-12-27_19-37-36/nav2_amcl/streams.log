@@ -1,0 +1,147 @@
+[0.135s] Invoking command in '/home/ricardo/rm_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_amcl -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/nav2_amcl
+[0.204s] -- The C compiler identification is GNU 11.4.0
+[0.268s] -- The CXX compiler identification is GNU 11.4.0
+[0.276s] -- Detecting C compiler ABI info
+[0.360s] -- Detecting C compiler ABI info - done
+[0.367s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.367s] -- Detecting C compile features
+[0.368s] -- Detecting C compile features - done
+[0.370s] -- Detecting CXX compiler ABI info
+[0.465s] -- Detecting CXX compiler ABI info - done
+[0.472s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.473s] -- Detecting CXX compile features
+[0.473s] -- Detecting CXX compile features - done
+[0.477s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.669s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.813s] -- Found nav2_common: 1.1.12 (/home/ricardo/rm_ws/install/nav2_common/share/nav2_common/cmake)
+[0.816s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.859s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.865s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.875s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.890s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.910s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.998s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.001s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.135s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.167s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.219s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.230s] -- Looking for pthread.h
+[1.323s] -- Looking for pthread.h - found
+[1.323s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.413s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.414s] -- Found Threads: TRUE  
+[1.591s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.632s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.704s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[1.711s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.774s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.775s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.775s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.055s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.133s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.219s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[2.235s] -- Found nav2_util: 1.1.12 (/home/ricardo/rm_ws/install/nav2_util/share/nav2_util/cmake)
+[2.663s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.685s] -- Setting build type to Release as none was specified.
+[2.686s] -- Looking for drand48
+[2.769s] -- Looking for drand48 - found
+[5.821s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.995s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.996s] -- Configured cppcheck include dirs: /home/ricardo/rm_ws/src/navigation2/nav2_amcl/include;/home/ricardo/rm_ws/src/navigation2/nav2_amcl/src/include
+[5.996s] -- Configured cppcheck exclude dirs and/or files: 
+[5.997s] -- Added test 'lint_cmake' to check CMake code style
+[5.999s] -- Added test 'uncrustify' to check C / C++ code style
+[6.000s] -- Configured uncrustify additional arguments: 
+[6.001s] -- Added test 'xmllint' to check XML markup files
+[6.004s] -- Configuring done
+[6.195s] -- Generating done
+[6.199s] -- Build files have been written to: /home/ricardo/rm_ws/build/nav2_amcl
+[6.239s] Invoked command in '/home/ricardo/rm_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_amcl -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/nav2_amcl
+[6.252s] Invoking command in '/home/ricardo/rm_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_amcl -- -j8 -l8
+[6.509s] [  4%] [32mBuilding C object src/map/CMakeFiles/map_lib.dir/map.c.o[0m
+[6.522s] [  8%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_kdtree.c.o[0m
+[6.524s] [ 12%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf.c.o[0m
+[6.528s] [ 16%] [32mBuilding C object src/map/CMakeFiles/map_lib.dir/map_range.c.o[0m
+[6.534s] [ 20%] [32mBuilding C object src/map/CMakeFiles/map_lib.dir/map_draw.c.o[0m
+[6.539s] [ 25%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_pdf.c.o[0m
+[6.583s] [ 29%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_vector.c.o[0m
+[6.587s] [ 33%] [32mBuilding CXX object src/map/CMakeFiles/map_lib.dir/map_cspace.cpp.o[0m
+[6.655s] [ 37%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/eig3.c.o[0m
+[6.748s] [ 41%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_draw.c.o[0m
+[7.123s] [ 45%] [32m[1mLinking C shared library libpf_lib.so[0m
+[7.365s] [ 45%] Built target pf_lib
+[7.432s] [ 50%] [32m[1mLinking CXX shared library libmap_lib.so[0m
+[7.496s] [ 54%] [32mBuilding CXX object src/motion_model/CMakeFiles/motions_lib.dir/omni_motion_model.cpp.o[0m
+[7.511s] [ 58%] [32mBuilding CXX object src/motion_model/CMakeFiles/motions_lib.dir/differential_motion_model.cpp.o[0m
+[7.743s] [ 58%] Built target map_lib
+[7.907s] [ 62%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/laser.cpp.o[0m
+[7.925s] [ 66%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model.cpp.o[0m
+[7.929s] [ 70%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/beam_model.cpp.o[0m
+[7.947s] [ 75%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model_prob.cpp.o[0m
+[8.921s] [ 79%] [32m[1mLinking CXX shared library libsensors_lib.so[0m
+[9.290s] [ 79%] Built target sensors_lib
+[9.351s] [ 83%] [32m[1mLinking CXX shared library libmotions_lib.so[0m
+[9.396s] [ 87%] [32mBuilding CXX object CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o[0m
+[9.963s] [ 87%] Built target motions_lib
+[59.463s] [ 91%] [32m[1mLinking CXX shared library libamcl_core.so[0m
+[59.972s] [ 91%] Built target amcl_core
+[60.002s] [ 95%] [32mBuilding CXX object CMakeFiles/amcl.dir/src/main.cpp.o[0m
+[65.381s] [100%] [32m[1mLinking CXX executable amcl[0m
+[65.881s] [100%] Built target amcl
+[65.901s] Invoked command in '/home/ricardo/rm_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_amcl -- -j8 -l8
+[65.973s] Invoking command in '/home/ricardo/rm_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_amcl
+[65.982s] -- Install configuration: "Release"
+[65.982s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/lib/libamcl_core.so
+[65.986s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_amcl/lib/libamcl_core.so" to ""
+[65.987s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/lib/nav2_amcl/amcl
+[65.988s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_amcl/lib/nav2_amcl/amcl" to ""
+[65.988s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include/
+[65.988s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl
+[65.988s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/motion_model
+[65.989s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/motion_model/motion_model.hpp
+[65.989s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/motion_model/omni_motion_model.hpp
+[65.989s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/motion_model/differential_motion_model.hpp
+[65.990s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/portable_utils.hpp
+[65.990s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/pf
+[65.990s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_kdtree.hpp
+[65.990s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_vector.hpp
+[65.991s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/pf/eig3.hpp
+[65.991s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_pdf.hpp
+[65.991s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/pf/pf.hpp
+[65.992s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/angleutils.hpp
+[65.992s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/sensors
+[65.992s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser
+[65.992s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser/laser.hpp
+[65.992s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/amcl_node.hpp
+[65.992s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/map
+[65.992s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/include//nav2_amcl/map/map.hpp
+[65.992s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh
+[65.992s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.dsv
+[65.993s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/plugins.xml
+[65.993s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl
+[65.993s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl
+[65.993s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh
+[65.993s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.dsv
+[65.994s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/environment/path.sh
+[65.994s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/environment/path.dsv
+[65.994s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/local_setup.bash
+[65.994s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/local_setup.sh
+[65.994s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/local_setup.zsh
+[65.995s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/local_setup.dsv
+[65.995s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/package.dsv
+[65.995s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl
+[65.995s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/ament_index/resource_index/nav2_amcl__pluginlib__plugin/nav2_amcl
+[65.996s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/ament_index/resource_index/rclcpp_components/nav2_amcl
+[65.996s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake
+[65.996s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake
+[65.996s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake
+[65.996s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake
+[65.996s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake
+[65.996s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/share/nav2_amcl/package.xml
+[65.996s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/lib/libpf_lib.so
+[65.997s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/lib/libmap_lib.so
+[65.998s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/lib/libmotions_lib.so
+[65.998s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_amcl/lib/libmotions_lib.so" to ""
+[65.998s] -- Installing: /home/ricardo/rm_ws/install/nav2_amcl/lib/libsensors_lib.so
+[65.999s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_amcl/lib/libsensors_lib.so" to ""
+[66.004s] Invoked command in '/home/ricardo/rm_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_amcl

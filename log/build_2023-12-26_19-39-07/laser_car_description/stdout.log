@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/laser_car_description/laser_car_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/laser_car_description/laser_car_description.egg-info/dependency_links.txt
+writing entry points to ../../build/laser_car_description/laser_car_description.egg-info/entry_points.txt
+writing requirements to ../../build/laser_car_description/laser_car_description.egg-info/requires.txt
+writing top-level names to ../../build/laser_car_description/laser_car_description.egg-info/top_level.txt
+reading manifest file '../../build/laser_car_description/laser_car_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/laser_car_description/laser_car_description.egg-info/SOURCES.txt'
+running build
+running build_py
+copying laser_car_description/rotate_wheel.py -> /home/ricardo/rm_ws/build/laser_car_description/build/lib/laser_car_description
+running install
+running install_lib
+copying /home/ricardo/rm_ws/build/laser_car_description/build/lib/laser_car_description/rotate_wheel.py -> /home/ricardo/rm_ws/install/laser_car_description/lib/python3.10/site-packages/laser_car_description
+byte-compiling /home/ricardo/rm_ws/install/laser_car_description/lib/python3.10/site-packages/laser_car_description/rotate_wheel.py to rotate_wheel.cpython-310.pyc
+running install_data
+copying urdf/laser_car_base.urdf -> /home/ricardo/rm_ws/install/laser_car_description/share/laser_car_description/urdf
+running install_egg_info
+removing '/home/ricardo/rm_ws/install/laser_car_description/lib/python3.10/site-packages/laser_car_description-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/laser_car_description/laser_car_description.egg-info to /home/ricardo/rm_ws/install/laser_car_description/lib/python3.10/site-packages/laser_car_description-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rotate_wheel script to /home/ricardo/rm_ws/install/laser_car_description/lib/laser_car_description
+writing list of installed files to '/home/ricardo/rm_ws/build/laser_car_description/install.log'

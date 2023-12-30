@@ -1,0 +1,8 @@
+source;share/laser_car_navigation2/hook/cmake_prefix_path.ps1
+source;share/laser_car_navigation2/hook/cmake_prefix_path.dsv
+source;share/laser_car_navigation2/hook/cmake_prefix_path.sh
+source;share/laser_car_navigation2/local_setup.bash
+source;share/laser_car_navigation2/local_setup.dsv
+source;share/laser_car_navigation2/local_setup.ps1
+source;share/laser_car_navigation2/local_setup.sh
+source;share/laser_car_navigation2/local_setup.zsh

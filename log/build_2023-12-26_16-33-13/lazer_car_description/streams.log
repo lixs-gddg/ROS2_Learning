@@ -1,0 +1,39 @@
+[0.972s] Invoking command in '/home/ricardo/rm_ws/src/lazer_car_description': PYTHONPATH=/home/ricardo/rm_ws/build/lazer_car_description/prefix_override:/home/ricardo/rm_ws/install/lazer_car_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lazer_car_description build --build-base /home/ricardo/rm_ws/build/lazer_car_description/build install --record /home/ricardo/rm_ws/build/lazer_car_description/install.log --single-version-externally-managed
+[1.159s] running egg_info
+[1.159s] creating ../../build/lazer_car_description/lazer_car_description.egg-info
+[1.160s] writing ../../build/lazer_car_description/lazer_car_description.egg-info/PKG-INFO
+[1.160s] writing dependency_links to ../../build/lazer_car_description/lazer_car_description.egg-info/dependency_links.txt
+[1.161s] writing entry points to ../../build/lazer_car_description/lazer_car_description.egg-info/entry_points.txt
+[1.162s] writing requirements to ../../build/lazer_car_description/lazer_car_description.egg-info/requires.txt
+[1.162s] writing top-level names to ../../build/lazer_car_description/lazer_car_description.egg-info/top_level.txt
+[1.163s] writing manifest file '../../build/lazer_car_description/lazer_car_description.egg-info/SOURCES.txt'
+[1.163s] reading manifest file '../../build/lazer_car_description/lazer_car_description.egg-info/SOURCES.txt'
+[1.163s] writing manifest file '../../build/lazer_car_description/lazer_car_description.egg-info/SOURCES.txt'
+[1.164s] running build
+[1.164s] running build_py
+[1.165s] creating /home/ricardo/rm_ws/build/lazer_car_description/build
+[1.165s] creating /home/ricardo/rm_ws/build/lazer_car_description/build/lib
+[1.167s] creating /home/ricardo/rm_ws/build/lazer_car_description/build/lib/lazer_car_description
+[1.167s] copying lazer_car_description/__init__.py -> /home/ricardo/rm_ws/build/lazer_car_description/build/lib/lazer_car_description
+[1.168s] running install
+[1.169s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.169s]   warnings.warn(
+[1.170s] running install_lib
+[1.170s] creating /home/ricardo/rm_ws/install/lazer_car_description/lib/python3.10/site-packages/lazer_car_description
+[1.171s] copying /home/ricardo/rm_ws/build/lazer_car_description/build/lib/lazer_car_description/__init__.py -> /home/ricardo/rm_ws/install/lazer_car_description/lib/python3.10/site-packages/lazer_car_description
+[1.171s] byte-compiling /home/ricardo/rm_ws/install/lazer_car_description/lib/python3.10/site-packages/lazer_car_description/__init__.py to __init__.cpython-310.pyc
+[1.172s] running install_data
+[1.172s] creating /home/ricardo/rm_ws/install/lazer_car_description/share/ament_index
+[1.173s] creating /home/ricardo/rm_ws/install/lazer_car_description/share/ament_index/resource_index
+[1.173s] creating /home/ricardo/rm_ws/install/lazer_car_description/share/ament_index/resource_index/packages
+[1.174s] copying resource/lazer_car_description -> /home/ricardo/rm_ws/install/lazer_car_description/share/ament_index/resource_index/packages
+[1.174s] copying package.xml -> /home/ricardo/rm_ws/install/lazer_car_description/share/lazer_car_description
+[1.174s] creating /home/ricardo/rm_ws/install/lazer_car_description/share/lazer_car_description/launch
+[1.176s] copying launch/touch display_rviz2.launch.py -> /home/ricardo/rm_ws/install/lazer_car_description/share/lazer_car_description/launch
+[1.178s] creating /home/ricardo/rm_ws/install/lazer_car_description/share/lazer_car_description/urdf
+[1.178s] copying urdf/lazer_car_base.urdf -> /home/ricardo/rm_ws/install/lazer_car_description/share/lazer_car_description/urdf
+[1.178s] running install_egg_info
+[1.179s] Copying ../../build/lazer_car_description/lazer_car_description.egg-info to /home/ricardo/rm_ws/install/lazer_car_description/lib/python3.10/site-packages/lazer_car_description-0.0.0-py3.10.egg-info
+[1.179s] running install_scripts
+[1.189s] writing list of installed files to '/home/ricardo/rm_ws/build/lazer_car_description/install.log'
+[1.221s] Invoked command in '/home/ricardo/rm_ws/src/lazer_car_description' returned '0': PYTHONPATH=/home/ricardo/rm_ws/build/lazer_car_description/prefix_override:/home/ricardo/rm_ws/install/lazer_car_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lazer_car_description build --build-base /home/ricardo/rm_ws/build/lazer_car_description/build install --record /home/ricardo/rm_ws/build/lazer_car_description/install.log --single-version-externally-managed

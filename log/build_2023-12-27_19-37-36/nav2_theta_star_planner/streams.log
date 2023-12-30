@@ -1,0 +1,99 @@
+[0.112s] Invoking command in '/home/ricardo/rm_ws/build/nav2_theta_star_planner': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_theta_star_planner -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/nav2_theta_star_planner
+[7.472s] -- The C compiler identification is GNU 11.4.0
+[7.472s] -- The CXX compiler identification is GNU 11.4.0
+[7.473s] -- Detecting C compiler ABI info
+[7.473s] -- Detecting C compiler ABI info - done
+[7.473s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.473s] -- Detecting C compile features
+[7.473s] -- Detecting C compile features - done
+[7.473s] -- Detecting CXX compiler ABI info
+[7.473s] -- Detecting CXX compiler ABI info - done
+[7.473s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.473s] -- Detecting CXX compile features
+[7.473s] -- Detecting CXX compile features - done
+[7.473s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.473s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[7.473s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[7.473s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.474s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.474s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.474s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.474s] -- Found nav2_common: 1.1.12 (/home/ricardo/rm_ws/install/nav2_common/share/nav2_common/cmake)
+[7.474s] -- Found nav2_core: 1.1.12 (/home/ricardo/rm_ws/install/nav2_core/share/nav2_core/cmake)
+[7.474s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.474s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.474s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.474s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.474s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.474s] -- Looking for pthread.h
+[7.474s] -- Looking for pthread.h - found
+[7.474s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.474s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.474s] -- Found Threads: TRUE  
+[7.474s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.474s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.474s] -- Setting build type to Release as none was specified.
+[9.548s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.663s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.257s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.263s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.264s] -- Configured cppcheck include dirs: /home/ricardo/rm_ws/src/navigation2/nav2_theta_star_planner/include
+[14.264s] -- Configured cppcheck exclude dirs and/or files: 
+[14.266s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.266s] -- Configured cpplint exclude dirs and/or files: 
+[14.267s] -- Added test 'lint_cmake' to check CMake code style
+[14.269s] -- Added test 'uncrustify' to check C / C++ code style
+[14.269s] -- Configured uncrustify additional arguments: 
+[14.270s] -- Added test 'xmllint' to check XML markup files
+[14.274s] -- Configuring done
+[14.378s] -- Generating done
+[14.382s] -- Build files have been written to: /home/ricardo/rm_ws/build/nav2_theta_star_planner
+[14.418s] Invoked command in '/home/ricardo/rm_ws/build/nav2_theta_star_planner' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ricardo/rm_ws/src/navigation2/nav2_theta_star_planner -DCMAKE_INSTALL_PREFIX=/home/ricardo/rm_ws/install/nav2_theta_star_planner
+[14.418s] Invoking command in '/home/ricardo/rm_ws/build/nav2_theta_star_planner': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_theta_star_planner -- -j8 -l8
+[42.057s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_theta_star_planner.dir/src/theta_star.cpp.o[0m
+[42.058s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_theta_star_planner.dir/src/theta_star_planner.cpp.o[0m
+[42.059s] [ 33%] [32m[1mLinking CXX shared library libnav2_theta_star_planner.so[0m
+[42.059s] [ 33%] Built target nav2_theta_star_planner
+[42.060s] [ 44%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[42.061s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[42.061s] [ 55%] Built target gtest_main
+[42.061s] [ 66%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[42.061s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[42.061s] [ 77%] Built target gtest
+[42.061s] [ 88%] [32mBuilding CXX object CMakeFiles/test_theta_star.dir/test/test_theta_star.cpp.o[0m
+[52.609s] [100%] [32m[1mLinking CXX executable test_theta_star[0m
+[53.934s] [100%] Built target test_theta_star
+[53.967s] Invoked command in '/home/ricardo/rm_ws/build/nav2_theta_star_planner' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ricardo/rm_ws/build/nav2_theta_star_planner -- -j8 -l8
+[54.093s] Invoking command in '/home/ricardo/rm_ws/build/nav2_theta_star_planner': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_theta_star_planner
+[68.781s] -- Install configuration: "Release"
+[68.781s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/theta_star_planner.xml
+[68.781s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/lib/libnav2_theta_star_planner.so
+[68.781s] -- Set runtime path of "/home/ricardo/rm_ws/install/nav2_theta_star_planner/lib/libnav2_theta_star_planner.so" to ""
+[68.781s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/include/
+[68.781s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/include//nav2_theta_star_planner
+[68.781s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/include//nav2_theta_star_planner/theta_star.hpp
+[68.781s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/include//nav2_theta_star_planner/theta_star_planner.hpp
+[68.781s] -- Up-to-date: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/theta_star_planner.xml
+[68.781s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/library_path.sh
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/library_path.dsv
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/package_run_dependencies/nav2_theta_star_planner
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/parent_prefix_path/nav2_theta_star_planner
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/ament_prefix_path.sh
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/ament_prefix_path.dsv
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/path.sh
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/path.dsv
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.bash
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.sh
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.zsh
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.dsv
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/package.dsv
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/packages/nav2_theta_star_planner
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_theta_star_planner
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/nav2_theta_star_plannerConfig.cmake
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/nav2_theta_star_plannerConfig-version.cmake
+[68.782s] -- Installing: /home/ricardo/rm_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/package.xml
+[68.794s] Invoked command in '/home/ricardo/rm_ws/build/nav2_theta_star_planner' returned '0': AMENT_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ricardo/rm_ws/install/nav2_core:/home/ricardo/rm_ws/install/nav2_costmap_2d:/home/ricardo/rm_ws/install/nav2_util:/home/ricardo/rm_ws/install/nav2_voxel_grid:/home/ricardo/rm_ws/install/nav2_msgs:/home/ricardo/rm_ws/install/nav2_common:/home/ricardo/rm_ws/install/laser_car_cartographer:/home/ricardo/rm_ws/install/cartographer_ros:/home/ricardo/rm_ws/install/cartographer_ros_msgs:/home/ricardo/rm_ws/install/cartographer:/home/ricardo/rm_ws/install/topic_text_video:/home/ricardo/rm_ws/install/laser_car_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ricardo/rm_ws/install/nav2_costmap_2d/lib:/home/ricardo/rm_ws/install/nav2_util/lib:/home/ricardo/rm_ws/install/nav2_voxel_grid/lib:/home/ricardo/rm_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ricardo/rm_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/ricardo/rm_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ricardo/rm_ws/build/nav2_theta_star_planner

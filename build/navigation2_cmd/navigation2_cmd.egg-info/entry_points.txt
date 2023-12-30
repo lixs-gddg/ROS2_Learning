@@ -1,0 +1,5 @@
+[console_scripts]
+init_robot_pose = navigation2_cmd.init_robot_pose:main
+set_up_inspection_points = navigation2_cmd.set_up_inspection_points:main
+start_patrol = navigation2_cmd.start_patrol:main
+
